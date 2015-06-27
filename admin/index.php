@@ -2,7 +2,7 @@
 <html lang="en"><head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <link rel="stylesheet" type="text/css" title="Orig" href="../main.css" media="screen,projection" />
-<meta name="Author" content="Anthony Baldwin" />
+<meta name="Author" content="Tony B." />
 <title>12-press</title>
 </head>
 <body>
