@@ -10,6 +10,7 @@ include '../admin/config.php';
 include 'admin/config.php';
 }
 
+echo "<div style=\"clear:both\"></div>";
 echo "<div id=\"navbar\">";
 echo "<img class=\"center\" src=\"$siteurl/images/nalogo.png\">";
 echo "<h4 class=\"nb\">Navigation:</h4>";
@@ -19,7 +20,9 @@ echo "<li><a class=\"nb\" href=\"$url/events.php\">EVENTS</a></li>";
 echo "<li><a class=\"nb\" href=\"$url/admin/\">ADMIN</a></li>";
 echo "<li><a class=\"nb\" href=\"$url/help.php\">HELP</a></li>";
 echo "<li><a class=\"nb\" href=\"$url/about.php\">ABOUT</a></li></ul>";
+echo "<h5 class=\"nb\">Regional Links:</h5>";
 echo "<p><a class=\"nb\"  href=\"http://www.ctna.org\">CT Region<br />Narcotics Anonymous</a></p>";
+echo "<p>CTNA HOTLINE:<br />800-627-3543 </p>";
 echo "<p align=\"center\"><small>powered by <a class=\"nb\" href=\"https://github.com/tonybaldwin/12press\">12Press</a></p>";
 echo "</div>";
 ?>

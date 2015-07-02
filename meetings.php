@@ -38,13 +38,13 @@ while($row = mysql_fetch_assoc($mtgres))
 	$meetingname = $row['meetingname'];
 	$day = $row['day'];
 	$time = $row['time'];
-	$street = $row['street'];
+	$street = $row['Street'];
 	$city = $row['city'];
 	$state = $row['state'];
 	$zip = $row['zip'];
 	$maplink = $row['maplink'];
 	$description = $row['description'];
-	echo "<li><strong>$meetingname, $day, $time</strong>,<br />$street $city $state $zip, <a href=\"$maplink\">map link</a><br /><u>$description</u></li>";
+	echo "<li><strong>$meetingname, $day, $time</strong>,<br />$street<br /> $city $state $zip, <a href=\"$maplink\">map link</a><br /><u>$description</u></li>";
 }
 echo "</ul><br />";
 ?>

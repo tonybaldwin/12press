@@ -18,6 +18,7 @@ ini_set('error_reporting', E_ALL ^ E_NOTICE);
 
 <div id="main">
 <?php
+date_default_timezone_set('America/New_York');
 echo "TIME: ";
 echo date('H:i');
 echo " DATE: ";

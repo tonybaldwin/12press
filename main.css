@@ -8,9 +8,12 @@ body { background-color: white; color: black; margin: auto; width: 100%;
 }
 
 p {
-	    font-size: 14px;
+	    font-size: 15px;
     }
 
+li {
+	    font-size: 14px;
+    }
 h1,h2,h3,h4 {color: #28215e; text-decoration: underline; }
 h1.nb,h2.nb,h3.nb,h4.nb {color: #fff; text-decoration: bold; 
 font-family: "Georgia", serif;
@@ -46,6 +49,18 @@ a.nb:hover {text-decoration: none; color: marigold; background-color:darkgreen; 
 
 #header {background-color: #0425A8; color: #fff; width: 100%; border-bottom: 1px solid; padding:5px;}
 #navbar {background-color: #0425A8; color: #fff; float: left; width: 200px; border-right: 0px solid; padding: 5px; min-height: 100%;}
-#main {float: left; width: 900px; padding: 15px; border-left: 0px solid;}
-#footer {position:fixed;bottom:0;width:100%;background-color: #0425A8; color: #fff; clear: both; border-top: solid 1px; padding: 5px;}
+#main {float: left; 
+	width: 800px; 
+	padding: 15px; 
+}
+
+#footer {
+	position:fixed;bottom:0;
+	width:100%;
+	background-color: #0425A8; 
+	color: #fff; 
+	clear: both; 
+	border-top: solid 1px; 
+	padding: 5px;
+}
 
