@@ -4,19 +4,20 @@
 
 body { background-color: white; color: black; margin: auto; width: 100%; }
 h1,h2,h3,h4 {color: #28215e; text-decoration: underline; }
+h1.nb,h2.nb,h3.nb,h4.nb {color: #fff; text-decoration: bold; }
 
 a:link {text-decoration: underline; color: #002e71;}
 a:visited {text-decoration: none; color: #432e69;}
 a:active {text-decoration: none; color: red;}
 a:hover {text-decoration: none; color: white; background-color:#0b5196; -moz-border-radius:3px;border-radius:3px;}
 
-a.nb:link {text-decoration: underline; color: lightblue;}
+a.nb:link {text-decoration: underline; color: #fff;}
 a.nb:visited {text-decoration: none; color: #eee;}
-a.nb:active {text-decoration: none; color: lightblue;}
-a.nb:hover {text-decoration: none; color: gold; background-color:#darkgreen; -moz-border-radius:3px;border-radius:3px;}
+a.nb:active {text-decoration: none; color: #fff;}
+a.nb:hover {text-decoration: none; color: marigold; background-color:darkgreen; -moz-border-radius:3px;border-radius:3px;}
 
 #header {background-color: #fff; color: black; width: 100%; border-bottom: 1px solid; padding:5px;}
-#navbar {background-color: #fff; color: black; float: left; width: 200px; border-right: 0px solid; padding: 5px;}
+#navbar {background-color: #0425A8; color: #fff; float: left; width: 200px; border-right: 0px solid; padding: 5px; min-height: 100%;}
 #main {float: left; width: 900px; padding: 15px; border-left: 0px solid;}
-#footer {position:fixed;bottom:0;width:100%;background-color: #000; color: #70570E; clear: both; border-top: solid 1px; padding: 5px;}
+#footer {position:fixed;bottom:0;width:100%;background-color: #0425A8; color: #fff; clear: both; border-top: solid 1px; padding: 5px;}
 

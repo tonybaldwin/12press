@@ -17,7 +17,7 @@ ini_set('error_reporting', E_ALL ^ E_NOTICE);
 ?>
 
 <div id="main">
-<a href="https://github.com/tonybaldwin/12press"><img src="images/12Press.png" width="300" alt="12press"></a>
+<!--<a href="https://github.com/tonybaldwin/12press"><img src="images/12Press.png" width="300" alt="12press"></a> -->
 <h4><a href="https://github.com/tonybaldwin/12press">12Press</a> - online 12 step fellowship meeting and event schedule platform.</h4>
 <?php
 echo "TIME: ";
