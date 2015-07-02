@@ -3,7 +3,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <link rel="stylesheet" type="text/css" title="Orig" href="main.css" media="screen,projection" />
 <meta name="Author" content="Tony B" />
-<title>12Press</title>
+<title>12Press Help & Documentation</title>
 </head>
 <body>
 <?php
@@ -19,8 +19,8 @@ include 'templates/navbar.php';
 Soon...if we neglect to alter this page, the future location of such documentation and support is likely to be at:</p>
 
 <ul>
-<li> <a href="https://github.com/tonybaldwin/12press">12Press on github</a></li>
-<li><a href="http://wiki.tonybaldwin.me/doku.php/hax/12press">12Press wiki</a></li>
+<li><a href="https://github.com/tonybaldwin/12press">12Press on github</a></li>
+<li><a href="https://github.com/tonybaldwin/12press/wiki">12Press Wiki</a></li>
 </ul>
 
 </div>

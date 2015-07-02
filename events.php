@@ -3,7 +3,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <link rel="stylesheet" type="text/css" title="Orig" href="main.css" media="screen,projection" />
 <meta name="Author" content="Anthony Baldwin" />
-<title>12Press - GNHA NA Events</title>
+<title>12Press Events</title>
 </head>
 <body>
 <?php

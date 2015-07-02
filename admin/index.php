@@ -35,7 +35,7 @@ if($act == "post") {
         exit;
     } else {
         //The file was successfully opened, lets write the entry to it.
-        $outputstring =  "<?php\n\$dbname = '" . $dbname .  "';\n\$dbuser =  '" . $dbuser . "';\n\$dbpass = '" . $dbpass . "';\n\$dbhost = '" .  $dbhost . "';\n\$url = '" . $url . "';\n\$sitetitle = '" . $sitetitle . "';\n";
+        $outputstring =  "<?php\n\$dbname = '" . $dbname .  "';\n\$dbuser =  '" . $dbuser . "';\n\$dbpass = '" . $dbpass . "';\n\$dbhost = '" .  $dbhost . "';\n\$url = '" . $url . "';\n\$sitetitle = '" . $sitetitle . "';\n\$footext = '" . $footext . "'\n";
 	
 	
         //Write to the file
@@ -67,7 +67,11 @@ echo "<td><input type=\"text\" name=\"dbhost\" size=\"50\" value=\"$dbhost\"></t
 echo "</tr><tr><td>site url (no trailing slash):</td>";
 echo "<td><input type=\"text\" name=\"url\" size=\"50\" value=\"$url\"></textarea></td>";
 echo "</tr><tr><td>Site Title:</td>";
-echo "<td><input type=text name=estax value=\"$sitetitle\"></textarea></td>";
+echo "<td><input type=text name=sitetitle size=\"100\" value=\"$sitetitle\"></textarea></td>";
+echo "</tr><tr><td>Header Message:</td>";
+echo "<td><input type=text name=headtext size=\"100\" value=\"$headtext\"></textarea></td>";
+echo "</tr><tr><td>Footer Message:</td>";
+echo "<td><input type=text name=footext size=\"100\" value=\"$footext\"></textarea></td>";
 ?>
 </tr></table>
     <input type="hidden" name="act" value="post"></input>

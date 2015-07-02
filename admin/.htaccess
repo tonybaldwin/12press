@@ -1,0 +1,4 @@
+AuthName "Admin Area Restricted"
+AuthType Basic
+AuthUserFile /etc/gnha/.htpasswd
+require valid-user

@@ -7,8 +7,8 @@ include 'admin/config.php';
 }
 
 echo "<div id=\"header\">";
-echo "<a href=\"https://github.com/tonybaldwin/12press\"><img class=\"right\" src=\"$siteurl/images/12pnavbutton.png\" alt=\"12press\" border=\"0\"></a>";
+echo "<a href=\"https://github.com/tonybaldwin/12press/wiki\" target=\"_new\"><img class=\"right\" src=\"$siteurl/images/12pnavbutton.png\" alt=\"12press\" border=\"0\"></a>";
 echo "<h1 class=\"nb\">$sitetitle</h1>";
-echo "<h4 class=\"nb\">Our message is HOPE, and the promise of FREEDOM!</h4>";
+echo "<h4 class=\"nb\">$headtext</h4>";
 echo "</div>";
 ?>
