@@ -1,0 +1,7 @@
+TODO:
+
+* make footer text admin configurable
+* make nav logo admin configurable
+* make add/edit events & meetings forms
+* lots of other stuff
+

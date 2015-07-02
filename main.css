@@ -6,6 +6,24 @@ body { background-color: white; color: black; margin: auto; width: 100%; }
 h1,h2,h3,h4 {color: #28215e; text-decoration: underline; }
 h1.nb,h2.nb,h3.nb,h4.nb {color: #fff; text-decoration: bold; }
 
+img.right { 
+	float: right; 
+	margin: 5px;
+	border-width: 0px;
+	border-color: darkgrey;
+	border-style: solid; 
+}
+
+img.center { 
+	float: center; 
+	margin: 5px; 
+	border-width: 0px;
+	border-color: darkgrey;
+	border-style: solid;
+	right-margin: auto;
+	left-margin: auto;
+}
+
 a:link {text-decoration: underline; color: #002e71;}
 a:visited {text-decoration: none; color: #432e69;}
 a:active {text-decoration: none; color: red;}
@@ -16,7 +34,7 @@ a.nb:visited {text-decoration: none; color: #eee;}
 a.nb:active {text-decoration: none; color: #fff;}
 a.nb:hover {text-decoration: none; color: marigold; background-color:darkgreen; -moz-border-radius:3px;border-radius:3px;}
 
-#header {background-color: #fff; color: black; width: 100%; border-bottom: 1px solid; padding:5px;}
+#header {background-color: #0425A8; color: #fff; width: 100%; border-bottom: 1px solid; padding:5px;}
 #navbar {background-color: #0425A8; color: #fff; float: left; width: 200px; border-right: 0px solid; padding: 5px; min-height: 100%;}
 #main {float: left; width: 900px; padding: 15px; border-left: 0px solid;}
 #footer {position:fixed;bottom:0;width:100%;background-color: #0425A8; color: #fff; clear: both; border-top: solid 1px; padding: 5px;}
