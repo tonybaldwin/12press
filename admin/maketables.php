@@ -35,9 +35,9 @@ PRIMARY KEY(id),
  city varchar(20),
  state varchar(20),
  zip varchar(20),
+ maplink varchar(200),
  flylink varchar(200),
- provsys varchar(200),
- notes varchar(500))")
+ description varchar(500))")
  or die(mysql_error());  
 
 echo "Events Table Created!";
