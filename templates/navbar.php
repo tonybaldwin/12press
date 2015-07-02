@@ -20,5 +20,6 @@ echo "<li><a class=\"nb\" href=\"$url/admin/\">ADMIN</a></li>";
 echo "<li><a class=\"nb\" href=\"$url/help.php\">HELP</a></li>";
 echo "<li><a class=\"nb\" href=\"$url/about.php\">ABOUT</a></li></ul>";
 echo "<p><a class=\"nb\"  href=\"http://www.ctna.org\">CT Region<br />Narcotics Anonymous</a></p>";
+echo "<p align=\"center\"><small>powered by <a class=\"nb\" href=\"https://github.com/tonybaldwin/12press\">12Press</a></p>";
 echo "</div>";
 ?>
