@@ -14,12 +14,17 @@ include 'templates/navbar.php';
 ?>
 
 <div id="main">
-<p><a href="https://github.com/tonybaldwin/12press"><img src="images/12press.png" width="600" alt="12press"></a></p>
+<?php 
+
+echo "<p><a href=\"https://github.com/tonybaldwin/12press\"><img src=\"$siteurl/images/12Press.png\" width=\"300\" alt=\"12press\"></a></p>";
+?>
 
 <h4>ABOUT 12Press</h4>
 
 <p><a href="https://github.com/tonybaldwin/12press">12Press</a> is an online 12 step fellowship meeting and event database front-end, written in php with a mysql backend.</p>
-<p><a href="https://github.com/tonybaldwin/12press">12Press</a> is <a href="http://www.gnu.org/philosophy/free-sw.html">Free/Open Source Software</a>, licensed acording to the terms of the <?php echo <a href="\"$siteurl/license.php\">GNU Affero General Public License, version 3 (or later)</a>."; ?>
+<?php
+echo "<p><a href=\"https://github.com/tonybaldwin/12press\">12Press</a> is <a href=\"http://www.gnu.org/philosophy/free-sw.html\">Free/Open Source Software</a>, licensed acording to the terms of the <a href=\"$siteurl/license.php\">GNU Affero General Public License, version 3 (or later)</a>.";
+?>
 <p>For further information and support, see: <a href="https://github.com/tonybaldwin/12press">12Press</a></p>
 
 </div>

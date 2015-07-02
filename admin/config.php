@@ -1,9 +1,9 @@
 <?php
 // config file for 12press
 //
-$dbname = 'dbname';
-$dbuser = 'dbuser';
-$dbpass = 'dbpassword';
+$dbname = 'gnhaTest';
+$dbuser = 'webservant';
+$dbpass = 'cmF0ZWRhcmlzYXdpbmdkYXJiCg';
 $dbhost = 'localhost';
-$url = 'http://yoursite.com/';
-$sitetitle = "Area Meetings &amp; Events";
+$url = 'http://12ptest.liberame.org/';
+$sitetitle = "GNHA NA Area Meetings &amp; Events";

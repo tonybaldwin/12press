@@ -3,7 +3,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <link rel="stylesheet" type="text/css" title="Orig" href="main.css" media="screen,projection" />
 <meta name="Author" content="Anthony Baldwin" />
-<title>TransProCloud</title>
+<title>12Press</title>
 </head>
 <body>
 <!-- transprocloud index --!>
@@ -40,7 +40,7 @@ mysql_select_db("$dbname") or die(mysql_error());
 $pquery = "SELECT * FROM evnts";
 $pres = mysql_query($pquery);
 $prows = mysql_num_rows($pres);
-echo "<li>eventss listed: $prows</li>";
+echo "<li>events listed: $prows</li>";
 ?>
 
 </ul>
