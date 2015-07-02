@@ -36,7 +36,7 @@ echo "<li>Meetings listed: $crows</li>";
 <?php
 mysql_connect("$dbhost", "$dbuser", "$dbpass") or die(mysql_error());
 mysql_select_db("$dbname") or die(mysql_error());
-$pquery = "SELECT * FROM evnts";
+$pquery = "SELECT * FROM events";
 $pres = mysql_query($pquery);
 $prows = mysql_num_rows($pres);
 echo "<li>events listed: $prows</li>";

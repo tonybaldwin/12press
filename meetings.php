@@ -17,6 +17,7 @@ ini_set('error_reporting', E_ALL ^ E_NOTICE);
 
 <div id="main">
 <?php
+date_default_timezone_set('America/New_York');
 echo "TIME: ";
 echo date('H:i');
 echo " DATE: ";
@@ -24,24 +25,30 @@ echo date('m/d/Y');
 echo "<h1>$sitetitle</h1>";
 ?>
 <ul>
+<h4>Meetings List:</h4>
+<ul>
 <?php
 mysql_connect("$dbhost", "$dbuser", "$dbpass") or die(mysql_error());
 mysql_select_db("$dbname") or die(mysql_error());
 $cquery = "SELECT * FROM meetings";
-$cres = mysql_query($cquery);
-$crows = mysql_num_rows($cres);
-echo "<li>Meetings listed: $crows</li>";
-?>
-<?php
-mysql_connect("$dbhost", "$dbuser", "$dbpass") or die(mysql_error());
-mysql_select_db("$dbname") or die(mysql_error());
-$pquery = "SELECT * FROM evnts";
-$pres = mysql_query($pquery);
-$prows = mysql_num_rows($pres);
-echo "<li>events listed: $prows</li>";
+$mtgres = mysql_query($cquery);
+while($row = mysql_fetch_assoc($mtgres))
+{
+	$id = $row['id'];
+	$meetingname = $row['meetingname'];
+	$day = $row['day'];
+	$time = $row['time'];
+	$street = $row['street'];
+	$city = $row['city'];
+	$state = $row['state'];
+	$zip = $row['zip'];
+	$maplink = $row['maplink'];
+	$description = $row['description'];
+	echo "<li><strong>$meetingname, $day, $time</strong>,<br />$street $city $state $zip, <a href=\"$maplink\">map link</a><br /><u>$description</u></li>";
+}
+echo "</ul><br />";
 ?>
 
-</ul>
 </div>
 
 <?php
