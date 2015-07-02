@@ -3,10 +3,9 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <link rel="stylesheet" type="text/css" title="Orig" href="main.css" media="screen,projection" />
 <meta name="Author" content="Anthony Baldwin" />
-<title>12Press</title>
+<title>12Press GNHA NA Meetings </title>
 </head>
 <body>
-<!-- transprocloud index --!>
 <?php
 include 'templates/header.php';
 
@@ -17,13 +16,12 @@ ini_set('error_reporting', E_ALL ^ E_NOTICE);
 ?>
 
 <div id="main">
-<a href="https://github.com/tonybaldwin/12press"><img src="images/12press.png" width="600" alt="12press"></a>
-<h4><a href="https://github.com/tonybaldwin/12press">12press</a> - online 12 step fellowship meeting and event schedule platform.</h4>
 <?php
 echo "TIME: ";
 echo date('H:i');
 echo " DATE: ";
 echo date('m/d/Y');
+echo "<h1>$sitetitle</h1>";
 ?>
 <ul>
 <?php

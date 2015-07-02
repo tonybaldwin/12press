@@ -6,7 +6,6 @@
 <title>12Press</title>
 </head>
 <body>
-<!-- transprocloud license --!>
 
 <?php
 include 'templates/header.php';

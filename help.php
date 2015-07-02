@@ -6,7 +6,6 @@
 <title>12Press</title>
 </head>
 <body>
-<!-- transprocloud index --!>
 <?php
 include 'templates/header.php';
 
@@ -14,10 +13,15 @@ include 'templates/navbar.php';
 ?>
 
 <div id="main">
-<a href="https://github.com/tonybaldwin/12press"><img src="images/12Press.png" width="600" alt="12Press"></a>
 <h4>12Press HELP!</h4>
 
-<p>See: <a href="https://github.com/tonybaldwin/12press">12Press</a></p>
+<p>At the moment, there is no documentation or help, yet, as we just started creating this platform recently.<br />
+Soon...if we neglect to alter this page, the future location of such documentation and support is likely to be at:</p>
+
+<ul>
+<li> <a href="https://github.com/tonybaldwin/12press">12Press on github</a></li>
+<li><a href="http://wiki.tonybaldwin.me/doku.php/hax/12press">12Press wiki</a></li>
+</ul>
 
 </div>
 

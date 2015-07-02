@@ -2,9 +2,19 @@
  * by tony baldwin | http://tonybaldwin.me
  */
 
-body { background-color: white; color: black; margin: auto; width: 100%; }
+body { background-color: white; color: black; margin: auto; width: 100%; 
+	 font-family: "Times New Roman", Times, serif;
+	 font-style: normal;
+}
+
+p {
+	    font-size: 14px;
+    }
+
 h1,h2,h3,h4 {color: #28215e; text-decoration: underline; }
-h1.nb,h2.nb,h3.nb,h4.nb {color: #fff; text-decoration: bold; }
+h1.nb,h2.nb,h3.nb,h4.nb {color: #fff; text-decoration: bold; 
+font-family: "Georgia", serif;
+}
 
 img.right { 
 	float: right; 
