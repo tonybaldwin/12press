@@ -12,11 +12,11 @@ include 'admin/config.php';
 
 echo "<div id=\"navbar\">";
 echo "<h4 class=\"nb\">Navigation:</h4>";
-echo "<ul><li><a class=\"nb\" href=\"$siteurl/admin/config.php\">Configure</a></li>";
 echo "<ul><li><a class=\"nb\" href=\"$url/index.php\">HOME</a>";
-echo "</li><li><a class=\"nb\" href=\"$url/meetings.php/\">MEETINGS</a></li>";
-echo "</li><li><a class=\"nb\" href=\"$url/admin/addmeeting.php/\">ADD A MEETING</a></li>";
-echo "</li><li><a class=\"nb\" href=\"$url/admin/editmeeting.php/\">EDIT MEETING</a></li>";
+echo "<li><a class=\"nb\" href=\"$siteurl/admin/config.php\">CONFIG</a></li>";
+echo "<li><a class=\"nb\" href=\"$url/meetings.php/\">MEETINGS</a></li>";
+echo "<li><a class=\"nb\" href=\"$url/admin/addmeeting.php/\">ADD A MEETING</a></li>";
+echo "<li><a class=\"nb\" href=\"$url/admin/editmeeting.php/\">EDIT MEETING</a></li>";
 echo "<li><a class=\"nb\" href=\"$url/events.php/\">EVENTS</a></li>";
 echo "<li><a class=\"nb\" href=\"$url/admin/addevent.php/\">ADD EVENT</a></li>";
 echo "<li><a class=\"nb\" href=\"$url/admin/editevent.php/\">EDIT EVENT</a></li>";
