@@ -6,3 +6,4 @@ $dbuser = 'dbuser';
 $dbpass = 'dbpassword';
 $dbhost = 'localhost';
 $url = 'http://yoursite.com/';
+$sitetitle = "Area Meetings &amp; Events";
