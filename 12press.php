@@ -3,7 +3,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <link rel="stylesheet" type="text/css" title="Orig" href="main.css" media="screen,projection" />
 <meta name="Author" content="Tony B" />
-<title>12Press About</title>
+<title>12Press | About 12Press</title>
 </head>
 <body>
 <?php
@@ -18,7 +18,9 @@ include 'include/navbar.php';
 echo "<p><a href=\"https://github.com/tonybaldwin/12press\"><img src=\"$siteurl/images/12pnavbutton.png\" alt=\"12press\"></a></p>";
 ?>
 
-<h4>ABOUT 12Press</h4>
+<h1>ABOUT 12Press</h1>
+
+<p><strong>This 12Press site belongs to the Greater New Haven Area of the <a href="http://www.ctna.org">CT Region of Narcotics Anonymous</a>.</strong></p>
 
 <p><a href="https://github.com/tonybaldwin/12press/wiki">12Press</a> is an online meeting and event schedule platform for 12 step recovery fellowships and similar organizations.</p>
 <?php
@@ -29,7 +31,6 @@ If you'd like to be involved in further development of this platform, please fee
 Your contributions would likely be most welcome.</p>
 <p>For further information and support, see the <a href="https://github.com/tonybaldwin/12press/wiki">12Press Wiki</a></p>
 
-<p>This 12Press site belongs to the Greater New Haven Area of the <a href="http://www.ctna.org">CT Region of Narcotics Anonymous</a>.</p>
 
 </div>
 

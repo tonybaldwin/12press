@@ -3,7 +3,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <link rel="stylesheet" type="text/css" title="Orig" href="main.css" media="screen,projection" />
 <meta name="Author" content="Tony Baldwin" />
-<title>12Press</title>
+<title>12Press - License</title>
 </head>
 <body>
 

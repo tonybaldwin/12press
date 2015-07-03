@@ -3,10 +3,9 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <link rel="stylesheet" type="text/css" title="Orig" href="main.css" media="screen,projection" />
 <meta name="Author" content="Anthony Baldwin" />
-<title>12Press - Greater New Haven Area NA Meetings and Events</title>
+<title>12Press - What is the NA Program?</title>
 </head>
 <body>
-<!-- transprocloud index --!>
 <?php
 include 'include/header.php';
 
@@ -17,7 +16,7 @@ ini_set('error_reporting', E_ALL ^ E_NOTICE);
 ?>
 
 <div id="main">
-<h1>What is the NA program?</h4>
+<h1>What is the NA program?</h1>
 
 <p>NA is a nonprofit fellowship or society of men and women for
 whom drugs had become a major problem. We are recovering
