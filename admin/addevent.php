@@ -3,7 +3,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <link rel="stylesheet" type="text/css" title="Orig" href="../main.css" media="screen,projection" />
 <meta name="Author" content="Anthony Baldwin" />
-<title>12Press</title>
+<title>12Press - Add Event</title>
 </head>
 <body>
 
@@ -14,7 +14,7 @@ include '../templates/navbar.php';
 ?>
 
 <div id="main">
-<h4>Add Meeting:</h4>
+<h4>Add Event:</h4>
 
 <form action="addevent.php" method="post">
 	<input type=text name=meetingname value="Name of Event"></input>
