@@ -23,15 +23,19 @@ echo "TIME: ";
 echo date('H:i');
 echo " DATE: ";
 echo date('m/d/Y');
+echo "<br />Today is ";
+echo date("l");
 echo "<h1>$sitetitle</h1>";
 ?>
 
-<table><tbody><tr><th><h4>MEETINGS</h4></th><th><h4>EVENTS</h4></th></tr>
-<tr><td><ul>
+<table><tbody><tr><th>MEETINGS TODAY</th><th>UPCOMING EVENTS</th></tr>
+<tr><td valign="top">
+<ul>
 <?php
+$today = date("l");
 mysql_connect("$dbhost", "$dbuser", "$dbpass") or die(mysql_error());
 mysql_select_db("$dbname") or die(mysql_error());
-$cquery = "SELECT * FROM meetings";
+$cquery = "SELECT * FROM meetings where day=\"$today\"";
 $mtgres = mysql_query($cquery);
 while($row = mysql_fetch_assoc($mtgres))
 {
@@ -49,8 +53,9 @@ while($row = mysql_fetch_assoc($mtgres))
 }
 echo "</ul><br />";
 ?>
+<p><a href="meetings.php">Full Meeting List Here</a></p>
 </td>
-<td>
+<td valign="top">
 <ul>
 <?php
 mysql_connect("$dbhost", "$dbuser", "$dbpass") or die(mysql_error());
