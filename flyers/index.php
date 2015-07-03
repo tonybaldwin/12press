@@ -14,7 +14,7 @@ include '../include/navbar.php';
 
 <div id="main">
 
-<h1>AREA MIINUTES</h1>
+<h1>EVENT FLYERS</h1>
 <ul>
 <?
    // loop through files and list them
