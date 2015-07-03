@@ -32,7 +32,7 @@ mysql_select_db("$dbname") or die(mysql_error());
 $cquery = "SELECT * FROM meetings";
 $cres = mysql_query($cquery);
 $crows = mysql_num_rows($cres);
-echo "<li>Meetings listed: $crows</li>";
+echo "<li><a href=\"meetings.php\">Meetings listed here</a>: $crows meeting</li>";
 ?>
 <?php
 mysql_connect("$dbhost", "$dbuser", "$dbpass") or die(mysql_error());
@@ -40,7 +40,7 @@ mysql_select_db("$dbname") or die(mysql_error());
 $pquery = "SELECT * FROM events";
 $pres = mysql_query($pquery);
 $prows = mysql_num_rows($pres);
-echo "<li>events listed: $prows</li>";
+echo "<li><a href=\"events.php\">Events listed here</a>: $prows event</li>";
 ?>
 
 </ul>

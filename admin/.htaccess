@@ -1,4 +1,4 @@
 AuthName "Admin Area Restricted"
 AuthType Basic
-AuthUserFile /etc/12Press/.htpasswd
+AuthUserFile /etc/gnha/.htpasswd
 require valid-user

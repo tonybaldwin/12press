@@ -25,5 +25,10 @@ echo "<h5 class=\"nb\">Regional Links:</h5>";
 echo "<p><a class=\"nb\"  href=\"http://www.ctna.org\">CT Region<br />Narcotics Anonymous</a></p>";
 echo "<p>CTNA HOTLINE:<br />800-627-3543 </p>";
 echo "<p align=\"center\"><small>powered by <a class=\"nb\" href=\"https://github.com/tonybaldwin/12press\">12Press</a></p>";
+echo "<p><br /><br /></p>";
+echo "<p><br /><br /></p>";
+echo "<p><br /><br /></p>";
+echo "<p><br /><br /></p>";
+echo "<p><br /><br /></p>";
 echo "</div>";
 ?>
