@@ -49,7 +49,7 @@ while($row = mysql_fetch_assoc($mtgres))
 	$zip = $row['zip'];
 	$maplink = $row['maplink'];
 	$description = $row['description'];
-	echo "<li><strong>$meetingname, $day, $time</strong>,<br />$street<br /> $city $state $zip, <a href=\"$maplink\">map link</a><br /><u>$description</u></li>";
+	echo "<li><strong>$meetingname, $day, $time</strong>,<br />$street<br /> $city $state $zip, <a href=\"$maplink\">map link</a><br />$description</li><hr />";
 }
 echo "</ul><br />";
 ?>
@@ -75,7 +75,7 @@ while($row = mysql_fetch_assoc($eres))
 	$maplink = $row['maplink'];
 	$flylink = $row['flylink'];
 	$description = $row['description'];
-	echo "<li><strong>$name,<br />$date, $time</strong><br />$street,<br />$city $state $zip <a href=\"$maplink\">MAP</a><br />$description<br /><a href=\"$flylink\">see flyer for more information</a></li>";
+	echo "<li><strong>$name,<br />$date, $time</strong><br />$street,<br />$city $state $zip <a href=\"$maplink\">MAP</a><br />$description<br /><a href=\"$flylink\">see flyer for more information</a></li><hr />";
 }
 ?>
 </ul>

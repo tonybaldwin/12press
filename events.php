@@ -45,7 +45,7 @@ while($row = mysql_fetch_assoc($eres))
 	$maplink = $row['maplink'];
 	$flylink = $row['flylink'];
 	$description = $row['description'];
-	echo "<li><strong>$name, $date, $time</strong><br />$street,<br />$city $state $zip <a href=\"$maplink\">MAP</a><br />$description<br /><a href=\"$flylink\">see flyer for more information</a></li>";
+	echo "<li><strong>$name, $date, $time</strong><br />$street,<br />$city $state $zip <a href=\"$maplink\">MAP</a><br />$description<br /><a href=\"$flylink\">see flyer for more information</a></li><hr />";
 }
 ?>
 
