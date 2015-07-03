@@ -16,15 +16,17 @@ include '../templates/navbar.php';
 <div id="main">
 <h4>Add Meeting:</h4>
 
-<form action="addmeeting.php" method="post">
-	<input type=text name=meetingname value="Name of Meeting"></input>
-	<input type=text name=Time value="Day &amp; Time"></input>
+<form action="addevent.php" method="post">
+	<input type=text name=meetingname value="Name of Event"></input>
+	<input type=text name=date value="Date"></input>
+	<input type=text name=time value="Time"></input>
 	<input type=text name=street value="Street"></input>
-	<input type=text name=city value="city"></input>
-	<input type=text name=state value="state or province"></input>
-	<input type=text name=zip value="zip or postal code"></input>
-	<input type=text name=maplink value="Link to map"></input>
-	<input type=text name=description size=100 value="Format/notes"></input>
+	<input type=text name=city value="City"></input>
+	<input type=text name=state value="State or Province"></input>
+	<input type=text name=zip value="zip or postal code"></input><br />
+	<input type=text name=maplink value="Link to Map"></input>
+	<input type=text name=flylink value="Link to Flyer"></input>
+	<input type=text name=description size=100 value="Description"></input>
 	<input type="hidden" name="act" value="post"></input>
 	<input type=submit name="submit" value="Submit"></input>
 </form>
@@ -39,10 +41,10 @@ if($act == "post") {
 	$state = $_POST['state'];
 	$country = $_POST['country'];
 	$maplink = $_POST['maplink'];
-	$description$_POST['description'];
+	$description = $_POST['description'];
  	mysql_connect("$dbhost", "$dbuser", "$dbpass") or die(mysql_error());
 	mysql_select_db("$dbname") or die(mysql_error());
-	$query="INSERT INTO meetings (name, street, city, state, country, zip, maplink, description) VALUES('$name', '$street', '$city', '$state', $country', '$zip', '$maplink', '$description')";
+	$query="INSERT INTO events (name, street, city, state, country, zip, maplink, flylink, description) VALUES('$name', '$street', '$city', '$state', $country', '$zip', '$maplink','$flylink', '$description')";
 	mysql_query($query) or die('Error, insert query failed');	
 	mysql_close();
     }
