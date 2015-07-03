@@ -48,7 +48,7 @@ if($act == "post") {
  	mysql_connect("$dbhost", "$dbuser", "$dbpass") or die(mysql_error());
 	mysql_select_db("$dbname") or die(mysql_error());
 	$query="INSERT INTO meetings (name, day, time, street, city, state, zip, maplink, description) VALUES('$name', '$day', '$time', '$street', '$city', '$state', '$maplink', '$country', '$zip', '$description')";
-	mysql_query($query) or die('Error, insert query failed');	
+	mysql_query($query) or die(mysql_error());	
 	mysql_close();
     }
 ?>
