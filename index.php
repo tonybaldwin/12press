@@ -25,25 +25,57 @@ echo " DATE: ";
 echo date('m/d/Y');
 echo "<h1>$sitetitle</h1>";
 ?>
-<ul>
+
+<table><tbody><tr><th><h4>MEETINGS</h4></th><th><h4>EVENTS</h4></th></tr>
+<tr><td><ul>
 <?php
 mysql_connect("$dbhost", "$dbuser", "$dbpass") or die(mysql_error());
 mysql_select_db("$dbname") or die(mysql_error());
 $cquery = "SELECT * FROM meetings";
-$cres = mysql_query($cquery);
-$crows = mysql_num_rows($cres);
-echo "<li><a href=\"meetings.php\">Meetings listed here</a>: $crows meeting</li>";
+$mtgres = mysql_query($cquery);
+while($row = mysql_fetch_assoc($mtgres))
+{
+	$id = $row['id'];
+	$meetingname = $row['meetingname'];
+	$day = $row['day'];
+	$time = $row['time'];
+	$street = $row['Street'];
+	$city = $row['city'];
+	$state = $row['state'];
+	$zip = $row['zip'];
+	$maplink = $row['maplink'];
+	$description = $row['description'];
+	echo "<li><strong>$meetingname, $day, $time</strong>,<br />$street<br /> $city $state $zip, <a href=\"$maplink\">map link</a><br /><u>$description</u></li>";
+}
+echo "</ul><br />";
 ?>
+</td>
+<td>
+<ul>
 <?php
 mysql_connect("$dbhost", "$dbuser", "$dbpass") or die(mysql_error());
 mysql_select_db("$dbname") or die(mysql_error());
-$pquery = "SELECT * FROM events";
-$pres = mysql_query($pquery);
-$prows = mysql_num_rows($pres);
-echo "<li><a href=\"events.php\">Events listed here</a>: $prows event</li>";
+$equery = "SELECT * FROM events";
+$eres = mysql_query($equery);
+while($row = mysql_fetch_assoc($eres))
+{
+	$id = $row['id'];
+	$name = $row['name'];
+	$date = $row['date'];
+	$time = $row['time'];
+	$street = $row['street'];
+	$city = $row['city'];
+	$state = $row['state'];
+	$zip = $row['zip'];
+	$maplink = $row['maplink'];
+	$flylink = $row['flylink'];
+	$description = $row['description'];
+	echo "<li><strong>$name,<br />$date, $time</strong><br />$street,<br />$city $state $zip <a href=\"$maplink\">MAP</a><br />$description<br /><a href=\"$flylink\">see flyer for more information</a></li>";
+}
 ?>
-
 </ul>
+</td></tr></tbody></table>
+
 </div>
 
 <?php
