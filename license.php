@@ -8,8 +8,8 @@
 <body>
 
 <?php
-include 'templates/header.php';
-include 'templates/navbar.php';
+include 'include/header.php';
+include 'include/navbar.php';
 ?>
 
 <div id="main">
@@ -683,7 +683,7 @@ For more information on this, and how to apply and follow the GNU AGPL, see
 </div>
 
 <?php
-include 'templates/footer.php';
+include 'include/footer.php';
 ?>
 </body>
 </html>

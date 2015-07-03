@@ -7,9 +7,9 @@
 </head>
 <body>
 <?php
-include 'templates/header.php';
+include 'include/header.php';
 include 'admin/config.php';
-include 'templates/navbar.php';
+include 'include/navbar.php';
 ?>
 
 <div id="main">
@@ -20,7 +20,7 @@ echo "<p><a href=\"https://github.com/tonybaldwin/12press\"><img src=\"$siteurl/
 
 <h4>ABOUT 12Press</h4>
 
-<p><a href="https://github.com/tonybaldwin/12press/wiki">12Press</a> - an online meeting and event schedule platform for 12 step recovery fellowships and similar organizations.</p>
+<p><a href="https://github.com/tonybaldwin/12press/wiki">12Press</a> is an online meeting and event schedule platform for 12 step recovery fellowships and similar organizations.</p>
 <?php
 echo "<p><a href=\"https://github.com/tonybaldwin/12press/wiki\">12Press</a> is <a href=\"http://www.gnu.org/philosophy/free-sw.html\">Free/Open Source Software</a>, licensed acording to the terms of the <a href=\"$siteurl/license.php\">GNU Affero General Public License, version 3 (or later)</a>.";
 ?>
@@ -34,7 +34,7 @@ Your contributions would likely be most welcome.</p>
 </div>
 
 <?php
-include 'templates/footer.php';
+include 'include/footer.php';
 ?>
 </body>
 </html>

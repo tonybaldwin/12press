@@ -8,9 +8,9 @@
 <body>
 <!-- transprocloud index --!>
 <?php
-include 'templates/header.php';
+include 'include/header.php';
 
-include 'templates/navbar.php';
+include 'include/navbar.php';
 
 ini_set('display_errors', "1");
 ini_set('error_reporting', E_ALL ^ E_NOTICE);
@@ -84,7 +84,7 @@ while($row = mysql_fetch_assoc($eres))
 </div>
 
 <?php
-include 'templates/footer.php';
+include 'include/footer.php';
 ?>
 </body>
 </html>

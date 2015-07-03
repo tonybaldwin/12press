@@ -8,9 +8,9 @@
 <body>
 
 <?php
-include '../templates/header.php';
+include '../include/header.php';
 include 'config.php';
-include '../templates/adminav.php';
+include '../include/adminav.php';
 ?>
 
 <div id="main">
@@ -56,7 +56,7 @@ if($act == "post") {
 </div>
 
 <?php
-include '../templates/footer.php';
+include '../include/footer.php';
 ?>
 </body>
 </html>

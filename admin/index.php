@@ -8,8 +8,8 @@
 <body>
 <!-- 12press index --!>
 <?php
-include '../templates/header.php';
-include '../templates/adminav.php';
+include '../include/header.php';
+include '../include/adminav.php';
 ?>
 
 <div id="main">
@@ -83,7 +83,7 @@ echo "<td><input type=text name=footext size=\"100\" value=\"$footext\"></textar
 </div>
 
 <?php
-include '../templates/footer.php';
+include '../include/footer.php';
 ?>
 </body>
 </html>
