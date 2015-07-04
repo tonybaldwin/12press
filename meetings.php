@@ -81,7 +81,7 @@ while($row = mysql_fetch_assoc($mtgres))
 	$zip = $row['zip'];
 	$maplink = $row['maplink'];
 	$description = $row['description'];
-	echo "<li><strong>$meetingname, $day, $time</strong>,<br />$street<br /> $city $state $zip, <a href=\"$maplink\" target=\"_new\">map link</a><br />$description</li><hr />";
+	echo "<li class=\"bod\"><strong>$meetingname, $day, $time</strong>,<br />$street<br /> $city $state $zip, <a href=\"$maplink\" target=\"_new\">map link</a><br />$description</li><br />";
 }
 echo "</ul><br />";
 ?>
