@@ -9,15 +9,18 @@ body { background-color: white; color: black; margin: auto; width: 100%;
 
 p {
 	    font-size: 15px;
-    }
+}
 
 li {
 	    font-size: 14px;
-    }
-
+}
+ol {
+	   font-size: 14px;
+}
 ul {
        list-style-image: url('/images/tinynalogo.jpg');
-   }
+}
+
 h1,h2,h3,h4 {color: #28215e; text-decoration: underline; }
 h1.nb,h2.nb,h3.nb,h4.nb {color: #fff; text-decoration: bold; 
 font-family: "Georgia", serif;
@@ -64,7 +67,7 @@ a.nb:hover {text-decoration: none; color:#E0C917; background-color:#0B4106; -moz
 #navbar {background-color: #3B61AE; color: #fff; float: left; width: 200px; border-right: 0px solid; padding: 5px; min-height: 100%;}
 #main {float: left; 
 	position: absolute; top: 150px; left: 210px;
-	width: 1000px; 
+	width: 800px; 
 	padding: 15px; 
 }
 
