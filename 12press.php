@@ -10,6 +10,7 @@
 include 'include/header.php';
 include 'admin/config.php';
 include 'include/navbar.php';
+include 'include/ifmobi.php';
 ?>
 
 <div id="main">
@@ -29,7 +30,7 @@ echo "<p><a href=\"https://github.com/tonybaldwin/12press/wiki\">12Press</a> is 
 <p>This means that you are free to download and install this software for your organization, view the code, modify the code, and share your modifications with others.<br />
 If you'd like to be involved in further development of this platform, please feel free to clone <a href="https://gibhut.com/tonybaldwin/12press">the github repo</a> and dig into the code.<br />
 Your contributions would likely be most welcome.</p>
-<p>For further information and support, see the <a href="https://github.com/tonybaldwin/12press/wiki">12Press Wiki</a></p>
+<p>For downloads, further information, and support, see the <a href="https://github.com/tonybaldwin/12press/wiki">12Press Wiki</a></p>
 
 
 </div>

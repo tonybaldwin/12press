@@ -1,3 +1,29 @@
+<script>
+<!--
+function land(ref, target)
+{
+	lowtarget=target.toLowerCase();
+	if (lowtarget=="_self") {window.location=loc;}
+	else {if (lowtarget=="_top") {top.location=loc;}
+		else {if (lowtarget=="_blank") {window.open(loc);}
+			else {if (lowtarget=="_parent") {parent.location=loc;}
+				else {parent.frames[target].location=loc;};
+			}}}
+}
+function jump(menu)
+{
+	ref=menu.choice.options[menu.choice.selectedIndex].value;
+	splitc=ref.lastIndexOf("*");
+	target="";
+	if (splitc!=-1)
+	{loc=ref.substring(0,splitc);
+	target=ref.substring(splitc+1,1000);}
+	else {loc=ref; target="_self";};
+	if (ref != "") {land(loc,target);}
+}
+//-->
+</script>
+
 <?php
 
 # left navigation bar
@@ -29,7 +55,9 @@ echo "<li><a class=\"nb\" href=\"$url/help.php\">HELP</a></li>";
 echo "<li><a class=\"nb\" href=\"$url/12press.php\">About 12Press</a></li></ul>";
 echo "<h5 class=\"nb\">Regional Links:</h5>";
 echo "<p><a class=\"nb\"  href=\"http://www.ctna.org\">CT Region<br />Narcotics Anonymous</a></p>";
-echo "<p align=\"center\"><small>powered by <a class=\"nb\" href=\"https://github.com/tonybaldwin/12press/wiki\" target=\"_new\">12Press</a></p>";
-echo "<p><br /><br /></p>";
-echo "</div>";
 ?>
+<h5 class="nb">Meeting Schedules for Each Week Day:</h5>
+<form action="/mbd.php" method="get"><select name="choice" size="1" onChange="jump(this.form)"><option value="">Choose a day</option><option value="http://gnhana.liberame.org/mbd.php?day=Sunday">Sunday</option><option value="http://gnhana.liberame.org/mbd.php?day=Monday">Monday</option><option value="http://gnhana.liberame.org/mbd.php?day=Tuesday">Tuesday</option><option value="http://gnhana.liberame.org/mbd.php?day=Wednesday">Wednesday</option><option value="http://gnhana.liberame.org/mbd.php?day=Thursday">Thursday</option><option value="http://gnhana.liberame.org/mbd.php?day=Friday">Friday</option><option value="http://gnhana.liberame.org/mbd.php?day=Saturday">Saturday</option></select></form>
+<p align="center"><small>powered by <a class="nb" href="https://github.com/tonybaldwin/12press/wiki" target="_new">12Press</a></p>
+</div>
+

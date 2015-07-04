@@ -3,13 +3,14 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <link rel="stylesheet" type="text/css" title="Orig" href="main.css" media="screen,projection" />
 <meta name="Author" content="Anthony Baldwin" />
-<title>12Press | Greater New Haven Area Narcotics Anonymouse | NA Meetings and Events</title>
+<title>12Press | Greater New Haven Area Narcotics Anonymous | NA Meetings and Events</title>
 </head>
 <body>
 <?php
 include 'include/header.php';
-
+include 'admin/config.php';
 include 'include/navbar.php';
+include 'include/ifmobi.php';
 
 ini_set('display_errors', "1");
 ini_set('error_reporting', E_ALL ^ E_NOTICE);
@@ -17,6 +18,7 @@ ini_set('error_reporting', E_ALL ^ E_NOTICE);
 
 <div id="main">
 <?php
+echo "<img src=\"$siteurl/images/GNHANA-quinniriverbanner.jpg\"><br />";
 date_default_timezone_set('America/New_York');
 echo "TIME: ";
 echo date('H:i');
@@ -26,6 +28,7 @@ echo "<br />Today is ";
 echo date("l");
 echo "<h1>$sitetitle</h1>";
 ?>
+
 
 <table><tbody><tr><th>MEETINGS TODAY</th><th>UPCOMING EVENTS</th></tr>
 <tr><td valign="top">
