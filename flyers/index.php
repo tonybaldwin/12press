@@ -29,7 +29,7 @@ include '../include/navbar.php';
  
                  continue;
  
-         echo "<li><a href=\"$file\">$file</a></li>";
+         echo "<li><a href=\"$file\" target=\"_new\">$file</a></li>";
  
  }
  
