@@ -87,7 +87,7 @@ echo "</ul><br />";
 <a href="http://gnhana.liberame.org/mbd.php?day=Friday">viernes</a> | 
 <a href="http://gnhana.liberame.org/mbd.php?day=Saturday">sabado</a></strong></p>
 
-<p>Llame a nuestra HOTLINE (línea de ayuda telefónica) 1-800-627-3543 para pedir ayuda bilingüe.<br />Hay adictos bilingües listos para ayudarle.</p>
+<p>Llame a nuestra HOTLINE (línea de ayuda telefónica) 1-800-627-3543 para pedir ayuda en español.<br />Hay adictos bilingües listos para ayudarle.</p>
 <p><br /></p>
 <p><br /></p>
 

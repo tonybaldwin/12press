@@ -61,9 +61,8 @@ echo "<li class=\"nb\"><a class=\"nb\" href=\"$url/admin/\">ADMIN</a></li></ul>"
 <p><a class="nb"  href="http://www.ctna.org">CT Region<br />Narcotics Anonymous</a></p>
 <p align="center"><small>&copy; GNHANA</small></p>
 <hr />
-<p><br /></p>
-<p><br /></p>
-<p><br /></p>
-<p align="center"><small>powered by <a class="nb" href="https://github.com/tonybaldwin/12press/wiki" target="_new">12Press</a></p>
+<?php
+echo "<p align=\"center\"><small>powered by<br /><a href=\"https://github.com/tonybaldwin/12press/wiki\" target=\"_new\"><img class=\"center\" src=\"$siteurl/images/12pnavbutton.png\" alt=\"12press\" width=\"150\" border=\"0\"></a>";
+?>
 </div>
 

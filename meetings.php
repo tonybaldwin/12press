@@ -52,17 +52,17 @@ echo date('m/d/Y');
 echo "<h1>$sitetitle</h1>";
 ?>
 
-<h2>Weed this list down to a single Day:</h2>
-<p><strong><a href="http://gnhana.liberame.org/mbd.php?day=Sunday">Sunday</a> | 
+<ul>
+<li class="bod"><strong>Meetings by Day:</strong><br />
+<a href="http://gnhana.liberame.org/mbd.php?day=Sunday">Sunday</a> | 
 <a href="http://gnhana.liberame.org/mbd.php?day=Monday">Monday</a> | 
 <a href="http://gnhana.liberame.org/mbd.php?day=Tuesday">Tuesday</a> | 
 <a href="http://gnhana.liberame.org/mbd.php?day=Wednesday">Wednesday</a> | 
 <a href="http://gnhana.liberame.org/mbd.php?day=Thursday">Thursday</a> | 
 <a href="http://gnhana.liberame.org/mbd.php?day=Friday">Friday</a> | 
-<a href="http://gnhana.liberame.org/mbd.php?day=Saturday">Saturday</a></strong></p>
-
-<h2>Weed this list down to a single Town:</h2>
-<p><strong><a href="http://gnhana.liberame.org/mbt.php?city=Branford">Branford</a> | 
+<a href="http://gnhana.liberame.org/mbd.php?day=Saturday">Saturday</a></li><br />
+<li class="bod"><strong>Meetings by  Town:</strong><br />
+<a href="http://gnhana.liberame.org/mbt.php?city=Branford">Branford</a> | 
 <a href="http://gnhana.liberame.org/mbt.php?city=East Haven">East Haven</a> | 
 <a href="http://gnhana.liberame.org/mbt.php?city=Hamden">Hamden</a> | 
 <a href="http://gnhana.liberame.org/mbt.php?city=Milford">Milford</a> | 
@@ -71,8 +71,7 @@ echo "<h1>$sitetitle</h1>";
 <a href="http://gnhana.liberame.org/mbt.php?city=North Haven">North Haven</a> | 
 <a href="http://gnhana.liberame.org/mbt.php?city=West Haven">West Haven</a> | 
 <a href="http://gnhana.liberame.org/mbt.php?city=Wallingford">Wallingford</a> | 
-<a href="http://gnhana.liberame.org/mbt.php?city=Woodbridge">Woodbridge</a></strong></p>
-<ul>
+<a href="http://gnhana.liberame.org/mbt.php?city=Woodbridge">Woodbridge</a></li></ul><hr />
 <h3> Complete Meetings List:</h3>
 <ul>
 <?php
@@ -94,9 +93,8 @@ while($row = mysql_fetch_assoc($mtgres))
 	$description = $row['description'];
 	echo "<li class=\"bod\"><strong>$meetingname, $day, $time</strong>,<br />$street<br /> $city $state $zip, <a href=\"$maplink\" target=\"_new\">map link</a><br />$description</li><br />";
 }
-echo "</ul><br />";
+echo "</ul>";
 ?>
-<p><br /></p>
 <p><br /></p>
 <p><br /></p>
 

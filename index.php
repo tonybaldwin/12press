@@ -18,7 +18,7 @@ ini_set('error_reporting', E_ALL ^ E_NOTICE);
 
 <div id="main">
 <?php
-// echo "<img src=\"$siteurl/images/GNHANA-quinniriverbanner.jpg\"><br />";
+echo "<img src=\"$siteurl/images/GNHANA-quinniriverbanner.jpg\"><br />";
 date_default_timezone_set('America/New_York');
 echo "Date &amp; Time: ";
 echo date("l");
@@ -31,7 +31,7 @@ echo "<h1>$sitetitle</h1>";
 
 
 <table><tbody><tr><th>MEETINGS TODAY</th><th>UPCOMING EVENTS</th></tr>
-<tr><td valign="top">
+<tr><td valign="top" width="390">
 <ul>
 <?php
 $today = date("l");
@@ -53,10 +53,11 @@ while($row = mysql_fetch_assoc($mtgres))
 	$description = $row['description'];
 	echo "<li class=\"bod\"><strong>$meetingname, $day, $time</strong>,<br />$street<br /> $city, $state $zip, <a href=\"$maplink\">MAPLINK</a><br />$description</li><br />";
 }
-echo "</ul><br />";
+echo "<hr />";
 ?>
+<li class="bod"><a href="meetings.php">Full Area Meeting List Here</a></li></ul>
 </td>
-<td valign="top">
+<td valign="top"i width="390">
 <ul>
 <?php
 mysql_connect("$dbhost", "$dbuser", "$dbpass") or die(mysql_error());
@@ -79,20 +80,29 @@ while($row = mysql_fetch_assoc($eres))
 	echo "<li class=\"bod\"><strong>$name,<br />$date, $time</strong><br />$street,<br />$city, $state $zip <a href=\"$maplink\">MAPLINK</a><br />$description<br /><a href=\"$flylink\">see flyer for more information</a></li><br />";
 }
 ?>
-</ul>
-</td></tr></tbody></table>
-
-<h2 align="center">single day meeting lists:</h2>
-<p align="center"><strong><a href="http://gnhana.liberame.org/mbd.php?day=Sunday">Sunday</a> | 
+<hr />
+<li class="bod"><strong>Meetings by Day:<br />
+<a href="http://gnhana.liberame.org/mbd.php?day=Sunday">Sunday</a> | 
 <a href="http://gnhana.liberame.org/mbd.php?day=Monday">Monday</a> | 
 <a href="http://gnhana.liberame.org/mbd.php?day=Tuesday">Tuesday</a> | 
 <a href="http://gnhana.liberame.org/mbd.php?day=Wednesday">Wednesday</a> | 
 <a href="http://gnhana.liberame.org/mbd.php?day=Thursday">Thursday</a> | 
 <a href="http://gnhana.liberame.org/mbd.php?day=Friday">Friday</a> | 
-<a href="http://gnhana.liberame.org/mbd.php?day=Saturday">Saturday</a></strong></p>
-<p align="center"><a href="meetings.php">Full Area Meeting List Here</a></p>
-<p><br /><br /></p>
-<p><br /><br /></p>
+<a href="http://gnhana.liberame.org/mbd.php?day=Saturday">Saturday</a></li><br />
+<li class="bod"><strong>Meetings by  Town:</strong><br />
+<a href="http://gnhana.liberame.org/mbt.php?city=Branford">Branford</a> | 
+<a href="http://gnhana.liberame.org/mbt.php?city=East Haven">East Haven</a> | 
+<a href="http://gnhana.liberame.org/mbt.php?city=Hamden">Hamden</a> | 
+<a href="http://gnhana.liberame.org/mbt.php?city=Milford">Milford</a> | 
+<a href="http://gnhana.liberame.org/mbt.php?city=New Haven">New Haven</a> | 
+<a href="http://gnhana.liberame.org/mbt.php?city=North Branford">North Branford</a> | 
+<a href="http://gnhana.liberame.org/mbt.php?city=North Haven">North Haven</a> | 
+<a href="http://gnhana.liberame.org/mbt.php?city=West Haven">West Haven</a> | 
+<a href="http://gnhana.liberame.org/mbt.php?city=Wallingford">Wallingford</a> | 
+<a href="http://gnhana.liberame.org/mbt.php?city=Woodbridge">Woodbridge</a></li><br />
+</ul>
+</td></tr></tbody></table>
+
 </div>
 
 <?php
