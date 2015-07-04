@@ -20,12 +20,12 @@ ini_set('error_reporting', E_ALL ^ E_NOTICE);
 <?php
 echo "<img src=\"$siteurl/images/GNHANA-quinniriverbanner.jpg\"><br />";
 date_default_timezone_set('America/New_York');
-echo "TIME: ";
-echo date('H:i');
-echo " DATE: ";
-echo date('m/d/Y');
-echo "<br />Today is ";
+echo "Date &amp; Time: ";
 echo date("l");
+echo ", ";
+echo date('m/d/Y');
+echo " - ";
+echo date('H:i a');
 echo "<h1>$sitetitle</h1>";
 ?>
 
@@ -55,7 +55,6 @@ while($row = mysql_fetch_assoc($mtgres))
 }
 echo "</ul><br />";
 ?>
-<p><a href="meetings.php">Full Meeting List Here</a></p>
 </td>
 <td valign="top">
 <ul>
@@ -83,6 +82,17 @@ while($row = mysql_fetch_assoc($eres))
 </ul>
 </td></tr></tbody></table>
 
+<h2 align="center">single day meeting lists:</h2>
+<p align="center"><strong><a href="http://gnhana.liberame.org/mbd.php?day=Sunday">Sunday</a> | 
+<a href="http://gnhana.liberame.org/mbd.php?day=Monday">Monday</a> | 
+<a href="http://gnhana.liberame.org/mbd.php?day=Tuesday">Tuesday</a> | 
+<a href="http://gnhana.liberame.org/mbd.php?day=Wednesday">Wednesday</a> | 
+<a href="http://gnhana.liberame.org/mbd.php?day=Thursday">Thursday</a> | 
+<a href="http://gnhana.liberame.org/mbd.php?day=Friday">Friday</a> | 
+<a href="http://gnhana.liberame.org/mbd.php?day=Saturday">Saturday</a></strong></p>
+<p align="center"><a href="meetings.php">Full Area Meeting List Here</a></p>
+<p><br /><br /></p>
+<p><br /><br /></p>
 </div>
 
 <?php

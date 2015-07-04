@@ -85,6 +85,9 @@ while($row = mysql_fetch_assoc($mtgres))
 }
 echo "</ul><br />";
 ?>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
 
 </div>
 

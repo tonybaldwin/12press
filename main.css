@@ -14,6 +14,10 @@ p {
 li {
 	    font-size: 14px;
     }
+
+ul {
+       list-style-image: url('/images/tinynalogo.jpg');
+   }
 h1,h2,h3,h4 {color: #28215e; text-decoration: underline; }
 h1.nb,h2.nb,h3.nb,h4.nb {color: #fff; text-decoration: bold; 
 font-family: "Georgia", serif;

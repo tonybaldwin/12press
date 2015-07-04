@@ -8,7 +8,7 @@
 <body>
 <?php
 include 'include/header.php';
-
+include 'include/config.php';
 include 'include/navbar.php';
 
 ini_set('display_errors', "1");
