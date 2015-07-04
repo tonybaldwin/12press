@@ -22,6 +22,9 @@ li.bod {
 li.nb {
 	font-size: 90%;
 }
+li {
+	font-size: 100%;
+}
 ol {
 	   font-size: 130%;
 }
@@ -37,9 +40,6 @@ font-family: "Georgia", serif;
 img.right { 
 	float: right; 
 	margin: 5px;
-	border-width: 0px;
-	border-color: darkgrey;
-	border-style: solid; 
 }
 
 img.nlogo { 
@@ -48,8 +48,8 @@ img.nlogo {
 	border-width: 0px;
 	right-margin: auto;
 	left-margin: auto;
-	-moz-border-radiius:10px;
-	border-radius:10px;
+	-moz-border-radiius:15px;
+	border-radius:15px;
 }
 img.center { 
 	float: center; 

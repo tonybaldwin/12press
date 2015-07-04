@@ -27,7 +27,8 @@ echo "<li class=\"nb\"><a class=\"nb\" href=\"$url/what.php\">What is NA?</a></l
 echo "<li class=\"nb\"><a class=\"nb\" href=\"$url/steps.php\">The 12 Steps</a></li>";
 echo "<li class=\"nb\"><a class=\"nb\" href=\"$url/traditions.php\">The 12 Traditions</a></li>";
 echo "<li class=\"nb\"><a class=\"nb\" href=\"$url/help.php\">HELP</a></li>";
-echo "<li class=\"nb\"><a class=\"nb\" href=\"$url/admin/\">ADMIN</a></li></ul>";
+echo "<li class=\"nb\"><a class=\"nb\" href=\"$url/admin/\">ADMIN</a></li>";
+echo "<li class=\"nb\"><a class=\"nb\" href=\"mailto:gnha@ctna.org\">email GNHA webservant</a></li></ul>";
 // echo "<li><a class=\"nb\" href=\"$url/12press.php\">About 12Press</a></li></ul>";
 ?>
 <h5 class="nb">Regional Links:</h5>
