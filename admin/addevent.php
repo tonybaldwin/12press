@@ -10,7 +10,7 @@
 <?php
 include '../include/header.php';
 include '../admin/config.php';
-include '../include/navbar.php';
+include '../include/adminav.php';
 ?>
 
 <div id="main">

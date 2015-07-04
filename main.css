@@ -12,18 +12,18 @@ p {
 }
 
 li.bod {
-	    font-size: 14px;
-	    background-color:#EFFBFF;
+	    font-size: 110%;
+	    background-color:#F1FBFF;
 	    padding: 5px;
 	    border-left:1px solid #222663;
 	    -moz-border-radius:5px;
 	    border-radius:5px; 
 }
-li {
-	    font-size: 100%;
+li.nb {
+	font-size: 90%;
 }
 ol {
-	   font-size: 150%;
+	   font-size: 130%;
 }
 ul {
        list-style-image: url('/images/tinynalogo.jpg');

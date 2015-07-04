@@ -27,13 +27,13 @@ echo "<h1>$sitetitle</h1>";
 
 <ul>
 <?php
-if (isset($_GET['day']))
+if (isset($_GET['city']))
 	{
-	$day = $_GET['day'];
-echo "<h2>Meetings List for $day:</h2>";
+	$city = $_GET['city'];
+echo "<h2>Meetings List for $city:</h2>";
 mysql_connect("$dbhost", "$dbuser", "$dbpass") or die(mysql_error());
 mysql_select_db("$dbname") or die(mysql_error());
-$cquery = "SELECT * FROM meetings where day=\"$day\"";
+$cquery = "SELECT * FROM meetings where city=\"$city\"";
 $mtgres = mysql_query($cquery);
 while($row = mysql_fetch_assoc($mtgres))
 {

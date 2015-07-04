@@ -52,33 +52,14 @@ echo date('m/d/Y');
 echo "<h1>$sitetitle</h1>";
 ?>
 
-<h2>Weed this list down to a single Day:</h2>
-<p><strong><a href="http://gnhana.liberame.org/mbd.php?day=Sunday">Sunday</a> | 
-<a href="http://gnhana.liberame.org/mbd.php?day=Monday">Monday</a> | 
-<a href="http://gnhana.liberame.org/mbd.php?day=Tuesday">Tuesday</a> | 
-<a href="http://gnhana.liberame.org/mbd.php?day=Wednesday">Wednesday</a> | 
-<a href="http://gnhana.liberame.org/mbd.php?day=Thursday">Thursday</a> | 
-<a href="http://gnhana.liberame.org/mbd.php?day=Friday">Friday</a> | 
-<a href="http://gnhana.liberame.org/mbd.php?day=Saturday">Saturday</a></strong></p>
 
-<h2>Weed this list down to a single Town:</h2>
-<p><strong><a href="http://gnhana.liberame.org/mbt.php?city=Branford">Branford</a> | 
-<a href="http://gnhana.liberame.org/mbt.php?city=East Haven">East Haven</a> | 
-<a href="http://gnhana.liberame.org/mbt.php?city=Hamden">Hamden</a> | 
-<a href="http://gnhana.liberame.org/mbt.php?city=Milford">Milford</a> | 
-<a href="http://gnhana.liberame.org/mbt.php?city=New Haven">New Haven</a> | 
-<a href="http://gnhana.liberame.org/mbt.php?city=North Branford">North Branford</a> | 
-<a href="http://gnhana.liberame.org/mbt.php?city=North Haven">North Haven</a> | 
-<a href="http://gnhana.liberame.org/mbt.php?city=West Haven">West Haven</a> | 
-<a href="http://gnhana.liberame.org/mbt.php?city=Wallingford">Wallingford</a> | 
-<a href="http://gnhana.liberame.org/mbt.php?city=Woodbridge">Woodbridge</a></strong></p>
 <ul>
-<h3> Complete Meetings List:</h3>
+<h3>Reuniones en Español:</h3>
 <ul>
 <?php
 mysql_connect("$dbhost", "$dbuser", "$dbpass") or die(mysql_error());
 mysql_select_db("$dbname") or die(mysql_error());
-$cquery = "SELECT * FROM meetings";
+$cquery = "SELECT * FROM meetings where id=\"22\"";
 $mtgres = mysql_query($cquery);
 while($row = mysql_fetch_assoc($mtgres))
 {
@@ -92,11 +73,21 @@ while($row = mysql_fetch_assoc($mtgres))
 	$zip = $row['zip'];
 	$maplink = $row['maplink'];
 	$description = $row['description'];
-	echo "<li class=\"bod\"><strong>$meetingname, $day, $time</strong>,<br />$street<br /> $city $state $zip, <a href=\"$maplink\" target=\"_new\">map link</a><br />$description</li><br />";
+	echo "<li class=\"bod\"><strong>$meetingname, $day, $time</strong>,<br />$street<br /> $city, $state $zip, <a href=\"$maplink\" target=\"_new\">mapa</a><br />$description</li><br />";
 }
 echo "</ul><br />";
 ?>
-<p><br /></p>
+
+<h2>reuniones otros días (estos son en inglés):</h2>
+<p><strong><a href="http://gnhana.liberame.org/mbd.php?day=Sunday">domingo</a> | 
+<a href="http://gnhana.liberame.org/mbd.php?day=Monday">lunes</a> | 
+<a href="http://gnhana.liberame.org/mbd.php?day=Tuesday">martes</a> | 
+<a href="http://gnhana.liberame.org/mbd.php?day=Wednesday">miercoles</a> | 
+<a href="http://gnhana.liberame.org/mbd.php?day=Thursday">jueves</a> | 
+<a href="http://gnhana.liberame.org/mbd.php?day=Friday">viernes</a> | 
+<a href="http://gnhana.liberame.org/mbd.php?day=Saturday">sabado</a></strong></p>
+
+<p>Llame a nuestra HOTLINE (línea de ayuda telefónica) 1-800-627-3543 para pedir ayuda bilingüe.<br />Hay adictos bilingües listos para ayudarle.</p>
 <p><br /></p>
 <p><br /></p>
 
