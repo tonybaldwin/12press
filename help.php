@@ -19,10 +19,12 @@ include 'include/navbar.php';
 We were once right where you are and desperate to stop using.<br />We can help. Call us.<br />We will love you before you can love yourself.</p>
 <p><strong>Our message is HOPE, and the promise of FREEDOM.</br >
 Any addict can get clean, lose the desire to use, and learn a NEW WAY OF LIFE.</strong></p>
+<hr />
 
 <h2>Update Information:</h2>
 
-<p>Need to update information on your meeting or event? <a href="mailto:gnha@ctna.org">e-mail the webservant</a>.</p>
+<p><strong>Need to send or update information on your meeting or event?<br />
+<a href="mailto:gnha@ctna.org">e-mail the webservant</a>.</strong></p>
 
 <hr />
 
@@ -31,9 +33,9 @@ Any addict can get clean, lose the desire to use, and learn a NEW WAY OF LIFE.</
 <p>At the moment, there is no documentation or help for the 12Press platform, yet, as we just started creating this platform recently.<br />
 Soon...if we neglect to alter this page, the future location of such documentation and support is likely to be at:</p>
 <ul>
-<li><a href="https://github.com/tonybaldwin/12press">12Press on GitHub</a></li>
-<li><a href="https://github.com/tonybaldwin/12press/wiki">12Press Wiki</a></li>
-<li><a href="mailto:gnha@ctna.org">e-mail webservant</a></li>
+<li class="bod"><a href="https://github.com/tonybaldwin/12press">12Press on GitHub</a></li><br />
+<li class="bod"><a href="https://github.com/tonybaldwin/12press/wiki">12Press Wiki</a></li><br />
+<li class="bod">Assistance with this particular 12press site: <a href="mailto:gnha@ctna.org">e-mail webservant</a></li>
 </ul>
 
 

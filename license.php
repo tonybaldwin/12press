@@ -647,9 +647,9 @@ to attach them to the start of each source file to most effectively
 state the exclusion of warranty; and each file should have at least
 the "copyright" line and a pointer to where the full notice is found.
 
-12Press - 12 step fellowship meeting and event schedule website tools
+<a href="https://github.com/tonybaldwin/12press" target="_new">12Press</a> - 12 step fellowship meeting and event schedule website tools
 
-    Copyright (C) 2015 - Tony Baldwin | http://tonybaldwin.me
+    Copyright (C) 2015 - <a href="http://tonybaldwin.me" target="_new">Anthony Baldwin</a>
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU Affero General Public License as published by
@@ -680,6 +680,9 @@ For more information on this, and how to apply and follow the GNU AGPL, see
 <a href="http://www.gnu.org/licenses/">gnu.org/licenses</a>.
 
 </pre>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
 </div>
 
 <?php

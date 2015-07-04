@@ -25,7 +25,7 @@ echo " DATE: ";
 echo date('m/d/Y');
 echo "<h1>$sitetitle</h1>";
 ?>
-<h4>Upcoming Events:</h4>
+<h2>Upcoming Events:</h2>
 <ul>
 <?php
 mysql_connect("$dbhost", "$dbuser", "$dbpass") or die(mysql_error());

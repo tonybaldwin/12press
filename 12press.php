@@ -15,8 +15,7 @@ include 'include/ifmobi.php';
 
 <div id="main">
 <?php 
-
-echo "<p><a href=\"https://github.com/tonybaldwin/12press\"><img src=\"$siteurl/images/12pnavbutton.png\" alt=\"12press\"></a></p>";
+echo "<p><a href=\"https://github.com/tonybaldwin/12press/wiki\" target=\"_new\"><img class=\"nlogo\" src=\"$siteurl/images/12pnavbutton.png\" alt=\"12press\"></a></p>";
 ?>
 
 <h1>ABOUT 12Press</h1>
@@ -25,10 +24,10 @@ echo "<p><a href=\"https://github.com/tonybaldwin/12press\"><img src=\"$siteurl/
 
 <p><a href="https://github.com/tonybaldwin/12press/wiki">12Press</a> is an online meeting and event schedule platform for 12 step recovery fellowships and similar organizations.</p>
 <?php
-echo "<p><a href=\"https://github.com/tonybaldwin/12press/wiki\">12Press</a> is <a href=\"http://www.gnu.org/philosophy/free-sw.html\">Free/Open Source Software</a>, licensed acording to the terms of the <a href=\"$siteurl/license.php\">GNU Affero General Public License, version 3 (or later)</a>.";
+echo "<p><a href=\"https://github.com/tonybaldwin/12press/wiki\">12Press</a> is <a href=\"http://www.gnu.org/philosophy/free-sw.html\" target=\"_new\">Free/Open Source Software</a>, licensed acording to the terms of the <a href=\"$siteurl/license.php\">GNU Affero General Public License, version 3 (or later)</a>.";
 ?>
-<p>This means that you are free to download and install this software for your organization, view the code, modify the code, and share your modifications with others.<br />
-If you'd like to be involved in further development of this platform, please feel free to clone <a href="https://gibhut.com/tonybaldwin/12press">the github repo</a> and dig into the code.<br />
+<p>This means that you are free to download and install this software for your organization, view the code, modify the code, and share your modifications with others.</p>
+<p>If you'd like to be involved in further development of this platform, please feel free to clone <a href="https://github.com/tonybaldwin/12press" target="_new">the github repo</a> and dig into the code.
 Your contributions would likely be most welcome.</p>
 <p>For downloads, further information, and support, see the <a href="https://github.com/tonybaldwin/12press/wiki">12Press Wiki</a></p>
 

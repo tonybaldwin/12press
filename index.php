@@ -25,7 +25,7 @@ echo date("l");
 echo ", ";
 echo date('m/d/Y');
 echo " - ";
-echo date('H:i a');
+echo date('g:i a');
 echo "<h1>$sitetitle</h1>";
 ?>
 
@@ -55,7 +55,7 @@ while($row = mysql_fetch_assoc($mtgres))
 }
 echo "<hr />";
 ?>
-<li class="bod"><a href="meetings.php">Full Area Meeting List Here</a></li></ul>
+<li class="bod"><strong><a href="meetings.php">Full Area Meeting List Here</a></strong> </li></ul>
 </td>
 <td valign="top"i width="390">
 <ul>
@@ -80,8 +80,9 @@ while($row = mysql_fetch_assoc($eres))
 	echo "<li class=\"bod\"><strong>$name,<br />$date, $time</strong><br />$street,<br />$city, $state $zip <a href=\"$maplink\">MAPLINK</a><br />$description<br /><a href=\"$flylink\">see flyer for more information</a></li><br />";
 }
 ?>
+<li class="bod"><strong><a href="events.php">Complete Events List</a></strong></li><br />
 <hr />
-<li class="bod"><strong>Meetings by Day:<br />
+<li class="bod"><strong>Meetings by Day:</strong><br />
 <a href="http://gnhana.liberame.org/mbd.php?day=Sunday">Sunday</a> | 
 <a href="http://gnhana.liberame.org/mbd.php?day=Monday">Monday</a> | 
 <a href="http://gnhana.liberame.org/mbd.php?day=Tuesday">Tuesday</a> | 
@@ -100,6 +101,7 @@ while($row = mysql_fetch_assoc($eres))
 <a href="http://gnhana.liberame.org/mbt.php?city=West Haven">West Haven</a> | 
 <a href="http://gnhana.liberame.org/mbt.php?city=Wallingford">Wallingford</a> | 
 <a href="http://gnhana.liberame.org/mbt.php?city=Woodbridge">Woodbridge</a></li><br />
+
 </ul>
 </td></tr></tbody></table>
 
