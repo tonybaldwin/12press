@@ -73,17 +73,27 @@ a.nb:active {text-decoration: none; color: #fff;}
 a.nb:hover {text-decoration: none; color:#0b5196; background-color:#fff; -moz-border-radius:3px;border-radius:3px;}
 
 #header {background-color: #3B61AE; color: #fff; width: 100%; border-bottom: 1px solid; padding:15px;}
-#navbar {background-color: #3B61AE; color: #fff; float: left; width: 200px; border-right: 0px solid; padding: 5px;height: 100%;}
+#navbar {
+	background-color: #3B61AE; 
+	color: #fff; 
+	float: left; 
+	width: 200px; 
+	border-right: 0px solid; 
+	padding: 5px;
+	height: 100%;
+	border-bottom-right-radius:15px;
+
+}
 #main {float: left; 
-//**position: absolute; top: 160px; left: 210px;**//
+position: absolute; top: 180px; left: 210px;
 	width: 800px; 
 	padding: 15px; 
 }
 
 #reading {
 	position:absolute; 
-	top:180px; 
-	left: 220px;
+	top:30px; 
+	left:50px;
 	width:800px;	
 	background-color:#F1FBFF;
 	padding: 5px;

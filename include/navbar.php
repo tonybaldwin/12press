@@ -38,5 +38,11 @@ echo "<li class=\"nb\"><a class=\"nb\" href=\"mailto:gnha@ctna.org\">email GNHA 
 <?php
 echo "<p align=\"center\"><small>powered by<br /><a href=\"12press.php\"><img class=\"center\" src=\"$siteurl/images/12pnavbutton.png\" alt=\"12press\" width=\"150\" border=\"0\"></a>";
 ?>
+<p><br/><br/></p>
+<p><br/><br/></p>
+<p><br/><br/></p>
+<p><br/><br/></p>
+<p><br/><br/></p>
+<p><br/><br/></p>
 </div>
 
