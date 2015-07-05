@@ -1,4 +1,0 @@
-AuthName "Admin Area Restricted"
-AuthType Basic
-AuthUserFile /etc/12press/.htpasswd
-require valid-user
