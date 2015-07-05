@@ -16,6 +16,7 @@ ini_set('error_reporting', E_ALL ^ E_NOTICE);
 ?>
 
 <div id="main">
+<div id="reading">
 <h1>What is the NA program?</h1>
 
 <p>NA is a nonprofit fellowship or society of men and women for
@@ -42,6 +43,8 @@ the most important person at any meeting, because we can
 only keep what we have by giving it away. We have learned
 from our group experience that those who keep coming to our
 meetings regularly <strong>stay clean</strong>.</p>
+<p>&copy; <a href="http://www.na.org">Narcotics Anonymous</a></p>
+</div>
 </div>
 
 <?php

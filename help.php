@@ -30,12 +30,12 @@ Any addict can get clean, lose the desire to use, and learn a NEW WAY OF LIFE.</
 
 <h3>12Press HELP!</h3>
 
-<p>At the moment, there is no documentation or help for the 12Press platform, yet, as we just started creating this platform recently.<br />
+<p>At the moment, there is no documentation for the 12Press platform, yet, as we just started creating this platform recently.<br />
 Soon...if we neglect to alter this page, the future location of such documentation and support is likely to be at:</p>
 <ul>
 <li class="bod"><a href="https://github.com/tonybaldwin/12press">12Press on GitHub</a></li><br />
 <li class="bod"><a href="https://github.com/tonybaldwin/12press/wiki">12Press Wiki</a></li><br />
-<li class="bod">Assistance with this particular 12press site: <a href="mailto:gnha@ctna.org">e-mail webservant</a></li>
+<li class="bod">The author of the sofware, is also the webservant for GNHANA,<br />and the administrator of this particular 12press site:<br /><a href="mailto:gnha@ctna.org">e-mail webservant</a></li>
 </ul>
 
 

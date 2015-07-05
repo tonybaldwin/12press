@@ -17,6 +17,7 @@ ini_set('error_reporting', E_ALL ^ E_NOTICE);
 
 <div id="main">
 
+<div id="reading">
 <h1>THE TWELVE TRADITIONS OF N.A.</h1>
 <ol>
 <li>Our common welfare should come first; personal recovery depends on N.A. unity.</li>
@@ -32,7 +33,8 @@ ini_set('error_reporting', E_ALL ^ E_NOTICE);
 <li>Our public relations policy is based on attraction rather than promotion; we need always maintain personal anonymity at the level of press, radio, and films.</li>
 <li>Anonymity is the spiritual foundation of all our traditions, ever reminding us to place principles before personalities.</li>
 </ol>
-
+<p>&copy; <a href="http://www.na.org">Narcotics Anonymous</a></p>
+</div>
 </div>
 
 <?php

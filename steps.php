@@ -16,6 +16,7 @@ ini_set('error_reporting', E_ALL ^ E_NOTICE);
 ?>
 
 <div id="main">
+<div id="reading">
 <h1>The Twelves Steps of Narcotics Anonymous</h1>
 <ol>
 <li>We admitted that we were powerless over our addiction, that our lives had become unmanageable.</li>
@@ -31,7 +32,8 @@ ini_set('error_reporting', E_ALL ^ E_NOTICE);
 <li>We sought through prayer and meditation to improve our conscious contact with God as we understood Him, praying only for knowledge of His will for us and the power to carry that out.</li>
 <li>Having had a spiritual awakening as a result of these steps, we tried to carry this message to addicts, and to practice these principles in all our affairs.</li>
 </ol>
-
+<p>&copy; <a href="http://www.na.org">Narcotics Anonymous</a></p>
+</div>
 </div>
 
 <?php
