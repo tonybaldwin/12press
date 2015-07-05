@@ -59,7 +59,7 @@ echo "<h1>$sitetitle</h1>";
 <?php
 mysql_connect("$dbhost", "$dbuser", "$dbpass") or die(mysql_error());
 mysql_select_db("$dbname") or die(mysql_error());
-$cquery = "SELECT * FROM meetings where id=\"22\"";
+$cquery = "SELECT * FROM meetings where lang=\"es\"";
 $mtgres = mysql_query($cquery);
 while($row = mysql_fetch_assoc($mtgres))
 {

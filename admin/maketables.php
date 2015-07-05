@@ -21,7 +21,8 @@ PRIMARY KEY(id),
  state varchar(100),
  zip varchar(20),
  maplink varchar(50),
- description varchar(500))")
+ description varchar(500),
+ lang varchar(2)),")
  or die(mysql_error());  
 
 echo "Meeting Table Created!";
