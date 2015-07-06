@@ -23,15 +23,18 @@ echo "<li class=\"nb\"><a class=\"nb\" href=\"$url/events.php\">EVENTS</a></li>"
 echo "<li class=\"nb\"><a class=\"nb\" href=\"$url/subcommittees.php\">SUBCOMMITTEES</a></li>";
 echo "<li class=\"nb\"><a class=\"nb\" href=\"$url/minutes/\">Area Minutes</a></li>";
 echo "<li class=\"nb\"><a class=\"nb\" href=\"$url/flyers/\">Event Flyers</a></li>";
+echo "<li class=\"nb\"><a class=\"nb\" href=\"$url/who.php\">Who is an Addict?</a></li>";
+echo "<li class=\"nb\"><a class=\"nb\" href=\"$url/why.php\">Why are WE Here?</a></li>";
 echo "<li class=\"nb\"><a class=\"nb\" href=\"$url/what.php\">What is NA?</a></li>";
 echo "<li class=\"nb\"><a class=\"nb\" href=\"$url/steps.php\">The 12 Steps</a></li>";
 echo "<li class=\"nb\"><a class=\"nb\" href=\"$url/traditions.php\">The 12 Traditions</a></li>";
+echo "<li class=\"nb\"><a class=\"nb\" href=\"$url/jft.php\">Just for Today</a></li>";
+echo "<li class=\"nb\"><a class=\"nb\" href=\"$url/wdr.php\">iWe Do Recover</a></li>";
 echo "<li class=\"nb\"><a class=\"nb\" href=\"$url/help.php\">HELP</a></li>";
 echo "<li class=\"nb\"><a class=\"nb\" href=\"$url/admin/\">ADMIN</a></li>";
 echo "<li class=\"nb\"><a class=\"nb\" href=\"mailto:gnha@ctna.org\">email GNHA webservant</a></li></ul>";
 // echo "<li><a class=\"nb\" href=\"$url/12press.php\">About 12Press</a></li></ul>";
 ?>
-<h5 class="nb">Regional Links:</h5>
 <p><a class="nb"  href="http://www.ctna.org">CT Region<br />Narcotics Anonymous</a></p>
 <p align="center"><small>&copy; GNHANA</small></p>
 <hr />

@@ -102,7 +102,8 @@ while($row = mysql_fetch_assoc($eres))
 <a href="http://gnhana.liberame.org/mbt.php?city=West Haven">West Haven</a> | 
 <a href="http://gnhana.liberame.org/mbt.php?city=Wallingford">Wallingford</a> | 
 <a href="http://gnhana.liberame.org/mbt.php?city=Woodbridge">Woodbridge</a></li><br />
-<li class="bod"><strong><a href="meetings.php">Full Area Meeting List Here</a></strong> </li></ul>
+<li class="bod"><strong><a href="meetings.php">Full Area Meeting List Here</a></strong> </li><br />
+<li class="bod"><strong><a href="es.php">Reuniones en Español</a></strong> </li></ul>
 
 </td></tr></tbody></table>
 
