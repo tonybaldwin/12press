@@ -1,6 +1,10 @@
 <?php
 // config file for 12press
+// by tony b 
+// here you set your database information
+// and other relevant data
 //
+
 $dbname = '$dbname';
 $dbuser = '$dbuser';
 $dbpass = '$dbpassword';
