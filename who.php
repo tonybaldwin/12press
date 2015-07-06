@@ -6,7 +6,7 @@ include 'include/meta.php';
 ?>
 <link rel="stylesheet" type="text/css" title="Orig" href="main.css" media="screen,projection" />
 <meta name="Author" content="Anthony Baldwin" />
-<title>12Press - What is the NA Program?</title>
+<title>12Press - Who is an Addict?</title>
 </head>
 <body>
 <?php

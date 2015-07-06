@@ -29,7 +29,7 @@ echo "<li class=\"nb\"><a class=\"nb\" href=\"$url/what.php\">What is NA?</a></l
 echo "<li class=\"nb\"><a class=\"nb\" href=\"$url/steps.php\">The 12 Steps</a></li>";
 echo "<li class=\"nb\"><a class=\"nb\" href=\"$url/traditions.php\">The 12 Traditions</a></li>";
 echo "<li class=\"nb\"><a class=\"nb\" href=\"$url/jft.php\">Just for Today</a></li>";
-echo "<li class=\"nb\"><a class=\"nb\" href=\"$url/wdr.php\">iWe Do Recover</a></li>";
+echo "<li class=\"nb\"><a class=\"nb\" href=\"$url/wdr.php\">We Do Recover</a></li>";
 echo "<li class=\"nb\"><a class=\"nb\" href=\"$url/help.php\">HELP</a></li>";
 echo "<li class=\"nb\"><a class=\"nb\" href=\"$url/admin/\">ADMIN</a></li>";
 echo "<li class=\"nb\"><a class=\"nb\" href=\"mailto:gnha@ctna.org\">email GNHA webservant</a></li></ul>";
