@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en"><head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="description" content="12Press - online meeting and event platform for 12 step recovery fellowships, NA, AA, CA, GA, SLA" />
+<meta name="keywords" content="schedule, meetings, events, NA, A, CA, GA, SLA, 12 steps, recovery, online, website, free software, FOSS, open source" />
 <link rel="stylesheet" type="text/css" title="Orig" href="main.css" media="screen,projection" />
 <meta name="Author" content="Tony B" />
 <title>12Press | About 12Press</title>

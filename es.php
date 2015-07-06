@@ -1,6 +1,9 @@
 <!DOCTYPE html>
-<html lang="en"><head>
+<html lang="es"><head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<?php
+include 'include/meta.php';
+?>
 <link rel="stylesheet" type="text/css" title="Orig" href="main.css" media="screen,projection" />
 <meta name="Author" content="Anthony Baldwin" />
 <title>12Press Meetings </title>
@@ -78,6 +81,12 @@ while($row = mysql_fetch_assoc($mtgres))
 echo "</ul><br />";
 ?>
 
+<ul>
+<li class="bod"><a href="http://www.narcoticosanonimos.es/?page_id=35" target="_new">Información acerca de Narcoticos Anonimos en Español<a></li><br />
+<li class="bod"><a href="http://www.narcoticosanonimos.es/?page_id=45" target="_new">¿Soy adicto?</a></li><br />
+<li class="bod"><strong>Llame a nuestra HOTLINE (línea de ayuda telefónica) 1-800-627-3543 para pedir ayuda en español.<br />Hay adictos bilingües listos para ayudarle.</strong></li></ul>
+
+
 <h2>reuniones otros días (estos son en inglés):</h2>
 <p><strong><a href="http://gnhana.liberame.org/mbd.php?day=Sunday">domingo</a> | 
 <a href="http://gnhana.liberame.org/mbd.php?day=Monday">lunes</a> | 
@@ -87,7 +96,6 @@ echo "</ul><br />";
 <a href="http://gnhana.liberame.org/mbd.php?day=Friday">viernes</a> | 
 <a href="http://gnhana.liberame.org/mbd.php?day=Saturday">sabado</a></strong></p>
 
-<p>Llame a nuestra HOTLINE (línea de ayuda telefónica) 1-800-627-3543 para pedir ayuda en español.<br />Hay adictos bilingües listos para ayudarle.</p>
 <p><br /></p>
 <p><br /></p>
 

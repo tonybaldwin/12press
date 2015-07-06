@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en"><head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<?php
+include 'include/meta.php';
+?>
 <link rel="stylesheet" type="text/css" title="Orig" href="main.css" media="screen,projection" />
 <meta name="Author" content="Anthony Baldwin" />
 <title>12Press | Greater New Haven Area Narcotics Anonymous | NA Meetings and Events</title>
@@ -53,9 +56,7 @@ while($row = mysql_fetch_assoc($mtgres))
 	$description = $row['description'];
 	echo "<li class=\"bod\"><strong>$meetingname, $day, $time</strong>,<br />$street<br /> $city, $state $zip, <a href=\"$maplink\">MAPLINK</a><br />$description</li><br />";
 }
-echo "<hr />";
 ?>
-<li class="bod"><strong><a href="meetings.php">Full Area Meeting List Here</a></strong> </li></ul>
 </td>
 <td valign="top"i width="390">
 <ul>
@@ -101,8 +102,8 @@ while($row = mysql_fetch_assoc($eres))
 <a href="http://gnhana.liberame.org/mbt.php?city=West Haven">West Haven</a> | 
 <a href="http://gnhana.liberame.org/mbt.php?city=Wallingford">Wallingford</a> | 
 <a href="http://gnhana.liberame.org/mbt.php?city=Woodbridge">Woodbridge</a></li><br />
+<li class="bod"><strong><a href="meetings.php">Full Area Meeting List Here</a></strong> </li></ul>
 
-</ul>
 </td></tr></tbody></table>
 
 </div>
