@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="en"><head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<link rel="stylesheet" type="text/css" title="Orig" href="../main.css" media="screen,projection" />
+<?php
+include '../include/ifmobi.php';
+?>
 <meta name="Author" content="Tony B" />
 <title>12Press Event Flyers</title>
 </head>
@@ -17,23 +19,23 @@ include '../include/navbar.php';
 <h1>EVENT FLYERS</h1>
 <ul>
 <?
-   // loop through files and list them
- 
-   $path = getcwd();
- 
-   $dir_handle = @opendir($path) or die("Unable to open $path");
- 
-   while ($file = readdir($dir_handle)) {
- 
-         if($file == "." || $file == ".." || $file == "index.php" || $file == ".htaccess" || $file == "robots.txt" || $file == ".index.php.swp" )
- 
-                 continue;
- 
-         echo "<li><a href=\"$file\" target=\"_new\">$file</a></li>";
- 
- }
- 
- closedir($dir_handle);
+// loop through files and list them
+
+$path = getcwd();
+
+$dir_handle = @opendir($path) or die("Unable to open $path");
+
+while ($file = readdir($dir_handle)) {
+
+ if($file == "." || $file == ".." || $file == "index.php" || $file == ".htaccess" || $file == "robots.txt" || $file == ".index.php.swp" )
+
+	 continue;
+
+ echo "<li><a href=\"$file\" target=\"_new\">$file</a></li>";
+
+}
+
+closedir($dir_handle);
 ?>
 </ul>
 </div>

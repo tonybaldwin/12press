@@ -3,35 +3,10 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <?php
 include 'include/meta.php';
+include 'include/ifmobi.php';
 ?>
-<link rel="stylesheet" type="text/css" title="Orig" href="main.css" media="screen,projection" />
 <meta name="Author" content="Anthony Baldwin" />
-<title>12Press Meetings </title>
-<script>
-<!--
-function land(ref, target)
-{
-	lowtarget=target.toLowerCase();
-	if (lowtarget=="_self") {window.location=loc;}
-	else {if (lowtarget=="_top") {top.location=loc;}
-		else {if (lowtarget=="_blank") {window.open(loc);}
-			else {if (lowtarget=="_parent") {parent.location=loc;}
-				else {parent.frames[target].location=loc;};
-			}}}
-}
-function jump(menu)
-{
-	ref=menu.choice.options[menu.choice.selectedIndex].value;
-	splitc=ref.lastIndexOf("*");
-	target="";
-	if (splitc!=-1)
-	{loc=ref.substring(0,splitc);
-	target=ref.substring(splitc+1,1000);}
-	else {loc=ref; target="_self";};
-	if (ref != "") {land(loc,target);}
-}
-//-->
-</script>
+<title>GNHANA - Reuniones en Español</title>
 
 </head>
 <body>

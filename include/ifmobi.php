@@ -54,7 +54,12 @@ $isMobile = strpos($ac, 'application/vnd.wap.xhtml+xml') !== false
         || strpos($ua, 'wap2.') !== false;
 
 if($isMobile){
-   header('Location: http://m.mowser.com/web/' . urlencode($_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']));
-   exit();
+	echo "<link rel=\"stylesheet\" type=\"text/css\" title=\"Orig\" href=\"http://gnhana.info/mobile.css\" media=\"screen,projection\" />";
+//   header('Location: http://m.mowser.com/web/' . urlencode($_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']));
+//   exit();
+} else {
+	echo "<link rel=\"stylesheet\" type=\"text/css\" title=\"Orig\" href=\"http://gnhana.info/main.css\" media=\"screen,projection\" />";
+
 }
+
 

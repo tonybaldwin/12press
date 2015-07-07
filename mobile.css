@@ -1,0 +1,75 @@
+/** main.css for 12press
+ * by tony baldwin | http://tonybaldwin.me
+ */
+
+body { background-color: white; color: black; margin: auto; width: 100%; 
+	 font-family: "Times New Roman", Times, serif;
+	 font-style: normal;
+}
+
+p {
+	    font-size: 120%;
+}
+
+
+#announce {
+	margin: auto;
+	text-align: center;
+	width: 80%;
+	font-size: 95%;
+	background-color:#FDFFD3;
+    }
+
+
+li.nb {
+	font-size: 90%;
+}
+li {
+	font-size: 100%;
+}
+ol {
+	   font-size: 130%;
+}
+
+h1,h2,h3,h4 {color: #28215e; }
+
+img.nlogo { 
+	float: center; 
+	margin: 5px; 
+	border-width: 0px;
+	right-margin: auto;
+	left-margin: auto;
+	-moz-border-radiius:15px;
+	border-radius:15px;
+}
+img.center { 
+	float: center; 
+	margin: 5px; 
+	border-width: 0px;
+	border-color: darkgrey;
+	border-style: solid;
+	right-margin: auto;
+	left-margin: auto;
+}
+
+a:link {text-decoration: underline; color: #002e71;}
+a:visited {text-decoration: none; color: #432e69;}
+a:active {text-decoration: none; color: red;}
+a:hover {text-decoration: none; color: white; background-color:#0b5196; -moz-border-radius:3px;border-radius:3px;}
+
+#header {
+color:#000;
+}
+
+#reading {
+	background-color:#F1FBFF;
+	padding: 5px;
+}
+#footer {
+	background-color: #fff;
+	color: #000;
+	clear: both; 
+	border-top: solid 1px; 
+	padding: 1px;
+}
+

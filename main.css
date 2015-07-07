@@ -20,6 +20,22 @@ li.bod {
 	    border-radius:5px; 
 	    box-shadow: 5px 5px 2px #999999;
 }
+
+#announce {
+	margin: auto;
+	text-align: center;
+	width: 80%;
+	margin-bottom: 8px;
+	padding: 2px;
+	spacing: 4px;
+	font-size: 95%;
+	background-color:#FDFFD3;
+	    -moz-border-radius:5px;
+	    border-radius:5px; 
+	    box-shadow: 5px 5px 2px #999;
+    }
+
+
 li.nb {
 	font-size: 90%;
 }
@@ -40,7 +56,11 @@ font-family: "Georgia", serif;
 
 img.right { 
 	float: right; 
-	margin: 5px;
+	/*margin: 5px;*/
+	-moz-border-radiius:15px;
+	border-radius:15px;
+	border: 5px solid #3B6iAE;
+	padding:10px;
 }
 
 img.nlogo { 
@@ -72,7 +92,7 @@ a.nb:visited {text-decoration: none; color: #eee;}
 a.nb:active {text-decoration: none; color: #fff;}
 a.nb:hover {text-decoration: none; color:#0b5196; background-color:#fff; -moz-border-radius:3px;border-radius:3px;}
 
-#header {background-color: #3B61AE; color: #fff; width: 100%; border-bottom: 1px solid; padding:5px;}
+#header {background-color: #3B61AE; color: #fff; width: 100%; border-bottom: 1px solid; padding:10px;}
 #navbar {
 	background-color: #3B61AE; 
 	color: #fff; 
@@ -82,6 +102,8 @@ a.nb:hover {text-decoration: none; color:#0b5196; background-color:#fff; -moz-bo
 	padding: 5px;
 	height: 100%;
 	border-bottom-right-radius:15px;
+	border-top-right-radius:15px;
+	box-shadow: 5px 5px 2px #999999;
 
 }
 #main {float: left; 
