@@ -1,7 +1,9 @@
 <DOCTYPE html>
 <html lang="en"><head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<link rel="stylesheet" type="text/css" title="Orig" href="main.css" media="screen,projection" />
+<?php
+include 'include/ifmobi.php';
+?>
 <meta name="Author" content="Tony Baldwin" />
 <title>12Press - License</title>
 </head>
