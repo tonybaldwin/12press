@@ -13,8 +13,7 @@ include 'admin/config.php';
 
 echo "<div style=\"clear:both\"></div>";
 echo "<div id=\"navbar\">";
-echo "<a href=\"http://www.na.org\" target=\"_blank\"><img class=\"nlogo\" src=\"$siteurl/images/nalogo.jpg\" width=\"150\"></a>";
-echo "<p>CTNA HOTLINE:<br />1-800-627-3543 </p>";
+echo "<p>CTNA HOTLINE:<br /><a class=\"nb\"href=\"tel:1-800-627-3543\">800-627-3541</a> </p>";
 echo "<h4 class=\"nb\">Navigation:</h4>";
 echo "<ul><li class=\"nb\"><a class=\"nb\" href=\"$url/index.php\">HOME</a></li>";
 echo "<li class=\"nb\"><a class=\"nb\" href=\"$url/meetings.php\">MEETINGS</a></li>";
@@ -28,6 +27,7 @@ echo "<li class=\"nb\"><a class=\"nb\" href=\"$url/why.php\">Why are WE Here?</a
 echo "<li class=\"nb\"><a class=\"nb\" href=\"$url/what.php\">What is NA?</a></li>";
 echo "<li class=\"nb\"><a class=\"nb\" href=\"$url/steps.php\">The 12 Steps</a></li>";
 echo "<li class=\"nb\"><a class=\"nb\" href=\"$url/traditions.php\">The 12 Traditions</a></li>";
+echo "<li class=\"nb\"><a class=\"nb\" href=\"$url/concepts.php\">The 12 concepts</a></li>";
 echo "<li class=\"nb\"><a class=\"nb\" href=\"$url/jft.php\">Just for Today</a></li>";
 echo "<li class=\"nb\"><a class=\"nb\" href=\"$url/wdr.php\">We Do Recover</a></li>";
 echo "<li class=\"nb\"><a class=\"nb\" href=\"$url/help.php\">HELP</a></li>";
