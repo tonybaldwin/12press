@@ -11,7 +11,7 @@ however, I will be shortly removing all local customizations and make this maste
 
 _The backend admin stuff needs a lot of work, yet, but if you can manage a DB via CLI, no worries, the rest of the platform works fine._
 
-Live sample: [Greater New Haven Area - Narcotics Anonymous](http://gnhana.liberame.org)
+Live sample: [Greater New Haven Area - Narcotics Anonymous](http://gnhana.info)
 
 Released according to the terms of the GNU/Affero Public License.
 
