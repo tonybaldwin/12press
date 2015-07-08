@@ -36,8 +36,9 @@ echo "<h1>$sitetitle</h1>";
 <?php
 $act = $_POST['act'];
 if($act == "post") {
-	$name = $_POST['name'];
-	$timeday = $_POST['timeday'];
+	$name = $_POST['meetingname'];
+	$day = $_POST['day'];
+	$time = $_POST['time'];
 	$street = $_POST['street'];
 	$city = $_POST['city'];
 	$zip = $_POST['zip'];
