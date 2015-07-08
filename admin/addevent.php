@@ -46,7 +46,7 @@ if($act == "post") {
 	$description = $_POST['description'];
  	mysql_connect("$dbhost", "$dbuser", "$dbpass") or die(mysql_error());
 	mysql_select_db("$dbname") or die(mysql_error());
-	$query="INSERT INTO events (id, name, date, tim, street, city, state, zip, maplink, flylink, description) VALUES(DEFAULT, '$name', '$date', '$time', '$street', '$city', '$state', '$zip', '$maplink','$flylink', '$description')";
+	$query="INSERT INTO events (id, name, date, time, street, city, state, zip, maplink, flylink, description) VALUES(DEFAULT, '$name', '$date', '$time', '$street', '$city', '$state', '$zip', '$maplink','$flylink', '$description')";
 	mysql_query($query) or die(mysql_error());	
 	mysql_close();
     }
