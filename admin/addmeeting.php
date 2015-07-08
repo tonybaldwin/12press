@@ -38,7 +38,7 @@ $act = $_POST['act'];
 if($act == "post") {
 	$name = $_POST['meetingname'];
 	$day = $_POST['day'];
-	$timeday = $_POST['time'];
+	$time = $_POST['time'];
 	$street = $_POST['street'];
 	$city = $_POST['city'];
 	$zip = $_POST['zip'];
