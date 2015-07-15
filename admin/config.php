@@ -2,12 +2,13 @@
 // config file for 12press
 //
 date_default_timezone_set('America/New_York');
-$dbname = '12pr355';
-$dbuser = 'gnh4n4WS';
-$dbpass = 'c2hhaGR1bWR1bXNvcmVseWhhbGZhCg';
+
+$dbname = 'dbname';
+$dbuser = 'dbuser';
+$dbpass = 'dbpass';
 $dbhost = 'localhost';
-$url = 'http://gnhana.info';
-$sitetitle = "GNHA NA Area Meetings &amp; Events";
-$footext = "Call the Connecticut Region of Narcotics Anonymous Statewide phone line. 1-800-627-3543 24 hours a day, 7 days a week!";
-$headtext = "Our message is HOPE, and the promise of FREEDOM!";
-$areaname = "GNHANA | Greater New Haven Area Narcotics Anonymous";
+$url = 'htp://yoursite.tld';
+$sitetitle = "12Press - DevTest Site";
+$footext = "This is a test site!";
+$headtext = "Only testing for dev purposes here";
+$areaname = "Nothing to see here...";
