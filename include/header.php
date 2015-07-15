@@ -19,15 +19,7 @@ echo "<small><strong>Meetings by Day:</strong>
 <a class=\"nb\" href=\"$url/mbd.php?day=Friday\">Friday</a> | 
 <a class=\"nb\" href=\"$url/mbd.php?day=Saturday\">Saturday</a> | 
 <strong>Meetings by  Town: </strong>
-<a class=\"nb\" href=\"$url/mbt.php?city=Branford\">Branford</a> | 
-<a class=\"nb\" href=\"$url/mbt.php?city=East Haven\">East Haven</a> | 
-<a class=\"nb\" href=\"$url/mbt.php?city=Hamden\">Hamden</a> | 
-<a class=\"nb\" href=\"$url/mbt.php?city=Milford\">Milford</a> | 
-<a class=\"nb\" href=\"$url/mbt.php?city=New Haven\">New Haven</a> | 
-<a class=\"nb\" href=\"$url/mbt.php?city=North Branford\">North Branford</a> | 
-<a class=\"nb\" href=\"$url/mbt.php?city=North Haven\">North Haven</a> | 
-<a class=\"nb\" href=\"$url/mbt.php?city=West Haven\">West Haven</a> | 
-<a class=\"nb\" href=\"$url/mbt.php?city=Wallingford\">Wallingford</a> | 
-<a class=\"nb\" href=\"$url/mbt.php?city=Woodbridge\">Woodbridge</a>";
+<a class=\"nb\" href=\"$url/mbt.php?city=Unknownville\">Unknownville </a> | 
+<a class=\"nb\" href=\"$url/mbt.php?city=Gone City\">Gone City </a>";
 echo "</small><br /></div>";
 ?>

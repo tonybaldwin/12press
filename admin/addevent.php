@@ -17,7 +17,7 @@ include '../include/adminav.php';
 <h4>Add Event:</h4>
 
 <form action="addevent.php" method="post">
-	<input type=text name=meetingname value="Name of Event"></input>
+	<input type=text name=name value="Name of Event"></input>
 	<input type=text name=date value="Date"></input>
 	<input type=text name=time value="Time"></input>
 	<input type=text name=street value="Street"></input>

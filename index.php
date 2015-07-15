@@ -21,8 +21,6 @@ ini_set('error_reporting', E_ALL ^ E_NOTICE);
 
 <div id="main">
 <?php
-// echo "<img src=\"$siteurl/images/GNHANA-quinniriverbanner.jpg\"><br />";
-// date_default_timezone_set('America/New_York');
 echo "Date &amp; Time: ";
 echo date("l");
 echo ", ";
@@ -33,7 +31,7 @@ echo "<h1>$sitetitle</h1>";
 ?>
 
 <div id="announce"><h4>Announcements:<h4>
-<p>This website has not been approved by the GNHANA-ASC, and is, as such, not yet official!</p>
+<p>This website is a test development site. None of the meetings or events listed here are real.</p>
 </div>
 <table><tbody><tr><th>MEETINGS TODAY</th><th>UPCOMING EVENTS</th></tr>
 <tr><td valign="top" width="390">
@@ -67,16 +65,7 @@ echo "<hr /><li class=\"bod\"><strong>Meetings by Day:</strong><br />
 <a href=\"$url/mbd.php?day=Friday\">Friday</a> | 
 <a href=\"$url/mbd.php?day=Saturday\">Saturday</a></li><br />
 <li class=\"bod\"><strong>Meetings by  Town:</strong><br />
-<a href=\"$url/mbt.php?city=Branford\">Branford</a> | 
-<a href=\"$url/mbt.php?city=East Haven\">East Haven</a> | 
-<a href=\"$url/mbt.php?city=Hamden\">Hamden</a> | 
-<a href=\"$url/mbt.php?city=Milford\">Milford</a> | 
-<a href=\"$url/mbt.php?city=New Haven\">New Haven</a> | 
-<a href=\"$url/mbt.php?city=North Branford\">North Branford</a> | 
-<a href=\"$url/mbt.php?city=North Haven\">North Haven</a> | 
-<a href=\"$url/mbt.php?city=West Haven\">West Haven</a> | 
-<a href=\"$url/mbt.php?city=Wallingford\">Wallingford</a> | 
-<a href=\"$url/mbt.php?city=Woodbridge\">Woodbridge</a></li><br />
+<a href=\"$url/mbt.php?city=Unknownville\">Unknownville</a></li><br />
 <li class=\"bod\"><strong><a href=\"meetings.php\">Full Area Meeting List Here</a></strong> </li><br />
 <li class=\"bod\"><strong><a href=\"es.php\">Reuniones en Español</a></strong> </li></ul>
 </td>

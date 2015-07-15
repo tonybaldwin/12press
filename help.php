@@ -27,7 +27,7 @@ Any addict can get clean, lose the desire to use, and learn a NEW WAY OF LIFE.</
 <h2>Update Information:</h2>
 
 <p><strong>Need to send or update information on your meeting or event?<br />
-<a href="mailto:gnha@ctna.org">e-mail the webservant</a>.</strong></p>
+<a href="mailto:webservant@unknownna.org">e-mail the webservant</a>.</strong></p>
 
 <hr />
 
@@ -36,9 +36,10 @@ Any addict can get clean, lose the desire to use, and learn a NEW WAY OF LIFE.</
 <p>At the moment, there is no documentation for the 12Press platform, yet, as we just started creating this platform recently.<br />
 Soon...if we neglect to alter this page, the future location of such documentation and support is likely to be at:</p>
 <ul>
-<li class="bod"><a href="https://github.com/tonybaldwin/12press">12Press on GitHub</a></li><br />
-<li class="bod"><a href="https://github.com/tonybaldwin/12press/wiki">12Press Wiki</a></li><br />
-<li class="bod">The author of the sofware, is also the webservant for GNHANA,<br />and the administrator of this particular 12press site:<br /><a href="mailto:gnha@ctna.org">e-mail webservant</a></li>
+<li class="bod"><a href="http://tonybaldwin.github.io/12press/" target="_new">12Press website</a></li><br />
+<li class="bod"><a href="https://github.com/tonybaldwin/12press" target="_new">12Press Code Repository on GitHub</a></li><br />
+<li class="bod"><a href="https://github.com/tonybaldwin/12press/wiki" target="_new">12Press Wiki</a></li><br />
+<li class="bod">The author of the sofware, is also the webservant,<br />and the administrator of this particular 12press site:<br /><a href="mailto:tonyb@myownsite.me">e-mail webservant</a></li>
 </ul>
 
 
