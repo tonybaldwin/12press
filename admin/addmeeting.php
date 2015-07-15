@@ -20,7 +20,7 @@ echo "<h1>$sitetitle</h1>";
 <h4>Add a Meeting:</h4>
 
 <form action="addmeeting.php" method="post">
-	<input type=text name=meetingname value="meetingname"></input>
+	<input type=text name=meetingname value="meeting name"></input>
 	<input type=text name=day value="day"></input>
 	<input type=text name=time value="time"></input><br />
 	<input type=text name=street value="street address"></input>
