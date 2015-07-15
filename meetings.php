@@ -57,24 +57,16 @@ echo "<h1>$sitetitle</h1>";
 
 <ul>
 <li class="bod"><strong>Meetings by Day:</strong><br />
-<a href="http://gnhana.liberame.org/mbd.php?day=Sunday">Sunday</a> | 
-<a href="http://gnhana.liberame.org/mbd.php?day=Monday">Monday</a> | 
-<a href="http://gnhana.liberame.org/mbd.php?day=Tuesday">Tuesday</a> | 
-<a href="http://gnhana.liberame.org/mbd.php?day=Wednesday">Wednesday</a> | 
-<a href="http://gnhana.liberame.org/mbd.php?day=Thursday">Thursday</a> | 
-<a href="http://gnhana.liberame.org/mbd.php?day=Friday">Friday</a> | 
-<a href="http://gnhana.liberame.org/mbd.php?day=Saturday">Saturday</a></li><br />
+<a href="http://12press.myownsite.me/mbd.php?day=Sunday">Sunday</a> | 
+<a href="http://12press.myownsite.me/mbd.php?day=Monday">Monday</a> | 
+<a href="http://12press.myownsite.me/mbd.php?day=Tuesday">Tuesday</a> | 
+<a href="http://12press.myownsite.me/mbd.php?day=Wednesday">Wednesday</a> | 
+<a href="http://12press.myownsite.me/mbd.php?day=Thursday">Thursday</a> | 
+<a href="http://12press.myownsite.me/mbd.php?day=Friday">Friday</a> | 
+<a href="http://12press.myownsite.me/mbd.php?day=Saturday">Saturday</a></li><br />
 <li class="bod"><strong>Meetings by  Town:</strong><br />
-<a href="http://gnhana.liberame.org/mbt.php?city=Branford">Branford</a> | 
-<a href="http://gnhana.liberame.org/mbt.php?city=East Haven">East Haven</a> | 
-<a href="http://gnhana.liberame.org/mbt.php?city=Hamden">Hamden</a> | 
-<a href="http://gnhana.liberame.org/mbt.php?city=Milford">Milford</a> | 
-<a href="http://gnhana.liberame.org/mbt.php?city=New Haven">New Haven</a> | 
-<a href="http://gnhana.liberame.org/mbt.php?city=North Branford">North Branford</a> | 
-<a href="http://gnhana.liberame.org/mbt.php?city=North Haven">North Haven</a> | 
-<a href="http://gnhana.liberame.org/mbt.php?city=West Haven">West Haven</a> | 
-<a href="http://gnhana.liberame.org/mbt.php?city=Wallingford">Wallingford</a> | 
-<a href="http://gnhana.liberame.org/mbt.php?city=Woodbridge">Woodbridge</a></li></ul><hr />
+<a href="http://12press.myownsite.me/mbt.php?city=Unknownville">Unknownville</a> | 
+<a href="http://12press.myownsite.me/mbt.php?city=Gone City">Gone City</a></li></ul><hr />
 <h3> Complete Meetings List:</h3>
 <ul>
 <?php

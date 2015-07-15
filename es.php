@@ -6,7 +6,7 @@ include 'include/meta.php';
 include 'include/ifmobi.php';
 ?>
 <meta name="Author" content="Anthony Baldwin" />
-<title>GNHANA - Reuniones en Español</title>
+<title>12Press - Reuniones en Español</title>
 
 </head>
 <body>
@@ -59,17 +59,17 @@ echo "</ul><br />";
 <ul>
 <li class="bod"><a href="http://www.narcoticosanonimos.es/?page_id=35" target="_new">Información acerca de Narcoticos Anonimos en Español<a></li><br />
 <li class="bod"><a href="http://www.narcoticosanonimos.es/?page_id=45" target="_new">¿Soy adicto?</a></li><br />
-<li class="bod"><strong>Llame a nuestra HOTLINE (línea de ayuda telefónica) 1-800-627-3543 para pedir ayuda en español.<br />Hay adictos bilingües listos para ayudarle.</strong></li></ul>
+<li class="bod"><strong>Llame a nuestra HOTLINE (línea de ayuda telefónica) 1-800-555-1234 para pedir ayuda en español.<br />Hay adictos bilingües listos para ayudarle.</strong></li></ul>
 
 
 <h2>reuniones otros días (estos son en inglés):</h2>
-<p><strong><a href="http://gnhana.liberame.org/mbd.php?day=Sunday">domingo</a> | 
-<a href="http://gnhana.liberame.org/mbd.php?day=Monday">lunes</a> | 
-<a href="http://gnhana.liberame.org/mbd.php?day=Tuesday">martes</a> | 
-<a href="http://gnhana.liberame.org/mbd.php?day=Wednesday">miercoles</a> | 
-<a href="http://gnhana.liberame.org/mbd.php?day=Thursday">jueves</a> | 
-<a href="http://gnhana.liberame.org/mbd.php?day=Friday">viernes</a> | 
-<a href="http://gnhana.liberame.org/mbd.php?day=Saturday">sabado</a></strong></p>
+<p><strong><a href="http://12press.myownsite.me/mbd.php?day=Sunday">domingo</a> | 
+<a href="http://12press.myownsite.me/mbd.php?day=Monday">lunes</a> | 
+<a href="http://12press.myownsite.me/mbd.php?day=Tuesday">martes</a> | 
+<a href="http://12press.myownsite.me/mbd.php?day=Wednesday">miercoles</a> | 
+<a href="http://12press.myownsite.me/mbd.php?day=Thursday">jueves</a> | 
+<a href="http://12press.myownsite.me/mbd.php?day=Friday">viernes</a> | 
+<a href="http://12press.myownsite.me/mbd.php?day=Saturday">sabado</a></strong></p>
 
 <p><br /></p>
 <p><br /></p>

@@ -23,7 +23,7 @@ echo "<p><a href=\"http://tonybaldwin.github.io/12press/\" target=\"_new\"><img 
 
 <h1>ABOUT 12Press</h1>
 
-<p><strong>This 12Press site belongs to the Greater New Haven Area of the <a href="http://www.ctna.org">CT Region of Narcotics Anonymous</a>.</strong></p>
+<p><strong>This 12Press site is simply a dev-test site; None of the meetings or events presented herein are real</strong></p>
 
 <p><a href="http://tonybaldwin.github.io/12press/">12Press</a> is an online meeting and event schedule platform for 12 step recovery fellowships and similar organizations.</p>
 <?php

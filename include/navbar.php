@@ -13,7 +13,7 @@ include 'admin/config.php';
 
 echo "<div style=\"clear:both\"></div>";
 echo "<div id=\"navbar\">";
-echo "<p>CTNA HOTLINE:<br /><a class=\"nb\"href=\"tel:1-800-627-3543\">800-627-3541</a> </p>";
+echo "<p>Unknown, ST Area<br />NA HOTLINE:<br /><a class=\"nb\"href=\"tel:1-800-555-1234\">800-555-1234</a> </p>";
 echo "<h4 class=\"nb\">Navigation:</h4>";
 echo "<ul><li class=\"nb\"><a class=\"nb\" href=\"$url/index.php\">HOME</a></li>";
 echo "<li class=\"nb\"><a class=\"nb\" href=\"$url/meetings.php\">MEETINGS</a></li>";
@@ -32,11 +32,9 @@ echo "<li class=\"nb\"><a class=\"nb\" href=\"$url/jft.php\">Just for Today</a><
 echo "<li class=\"nb\"><a class=\"nb\" href=\"$url/wdr.php\">We Do Recover</a></li>";
 echo "<li class=\"nb\"><a class=\"nb\" href=\"$url/help.php\">HELP</a></li>";
 echo "<li class=\"nb\"><a class=\"nb\" href=\"$url/admin/\">ADMIN</a></li>";
-echo "<li class=\"nb\"><a class=\"nb\" href=\"mailto:gnha@ctna.org\">email GNHA webservant</a></li></ul>";
+echo "<li class=\"nb\"><a class=\"nb\" href=\"mailto:webservant@unknownna.org\">email Unknown Area NA webservant</a></li></ul>";
 // echo "<li><a class=\"nb\" href=\"$url/12press.php\">About 12Press</a></li></ul>";
 ?>
-<p><a class="nb"  href="http://www.ctna.org">CT Region<br />Narcotics Anonymous</a></p>
-<p align="center"><small>&copy; GNHANA</small></p>
 <hr />
 <?php
 echo "<p align=\"center\"><small>powered by<br /><a href=\"12press.php\"><img class=\"center\" src=\"$siteurl/images/12pnavbutton.png\" alt=\"12press\" width=\"150\" border=\"0\"></a>";

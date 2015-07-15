@@ -19,12 +19,12 @@ echo "<li><a class=\"nb\" href=\"$url/admin/addmeeting.php\">ADD A MEETING</a></
 echo "<li><a class=\"nb\" href=\"$url/admin/editmeeting.php\">EDIT MEETING</a></li>";
 echo "<li><a class=\"nb\" href=\"$url/events.php/\">EVENTS</a></li>";
 echo "<li><a class=\"nb\" href=\"$url/admin/addevent.php\">ADD EVENT</a></li>";
-echo "<li><a class=\"nb\" href=\"$url/admin/editevent.php\">EDIT EVENT</a></li>";
+echo "<li><a class=\"nb\" href=\"$url/admin/eventlist.php\">EDIT EVENT</a></li>";
 echo "<li><a class=\"nb\" href=\"$url/admin/\">ADMIN</a></li>";
 echo "<li><a class=\"nb\" href=\"$url/help.php\">HELP</a></li>";
 echo "<li><a class=\"nb\" href=\"$url/12press.php\">ABOUT</a></li></ul>";
-echo "<p><a class=\"nb\"  href=\"http://www.ctna.org\">CT Region<br />Narcotics Anonymous</a></p>";
 echo "<p><br /><br /></p>";
+echo "<p align=\"center\"><small>powered by<br /><a href=\"12press.php\"><img class=\"center\" src=\"$siteurl/images/12pnavbutton.png\" alt=\"12press\" width=\"150\" border=\"0\"></a>";
 echo "<p><br /><br /></p>";
 echo "<p><br /><br /></p>";
 echo "<p><br /><br /></p>";
