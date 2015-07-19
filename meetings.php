@@ -65,16 +65,8 @@ echo "<ul>
 <a href=\"$url/mbd.php?day=Friday\">Friday</a> | 
 <a href=\"$url/mbd.php?day=Saturday\">Saturday</a></li><br />
 <li class=\"bod\"><strong>Meetings by  Town:</strong><br />
-<a href=\"$url/mbt.php?city=Branford\">Branford</a> | 
-<a href=\"$url/mbt.php?city=East Haven\">East Haven</a> | 
-<a href=\"$url/mbt.php?city=Hamden\">Hamden</a> | 
-<a href=\"$url/mbt.php?city=Milford\">Milford</a> | 
-<a href=\"$url/mbt.php?city=New Haven\">New Haven</a> | 
-<a href=\"$url/mbt.php?city=North Branford\">North Branford</a> | 
-<a href=\"$url/mbt.php?city=North Haven\">North Haven</a> | 
-<a href=\"$url/mbt.php?city=West Haven\">West Haven</a> | 
-<a href=\"$url/mbt.php?city=Wallingford\">Wallingford</a> | 
-<a href=\"$url/mbt.php?city=Woodbridge\">Woodbridge</a></li><br />
+<a href=\"$url/mbt.php?city=\">Unkownville</a> | 
+<a href=\"$url/mbt.php?city=Gone City\">Gone City</a></li><br />
 <li class=\"bod\"><a href=\"export.php\" target=\"_new\">export meeting list to csv</a> (can be imported to .xls/.xlsx excel or .ods libreoffice spreadsheet).<br /></li><br /></ul></hr>";
 
 mysql_connect("$dbhost", "$dbuser", "$dbpass") or die(mysql_error());
