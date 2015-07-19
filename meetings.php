@@ -53,23 +53,30 @@ echo date('H:i');
 echo " DATE: ";
 echo date('m/d/Y');
 echo "<h1>$sitetitle</h1>";
-?>
 
-<ul>
-<li class="bod"><strong>Meetings by Day:</strong><br />
-<a href="http://12press.myownsite.me/mbd.php?day=Sunday">Sunday</a> | 
-<a href="http://12press.myownsite.me/mbd.php?day=Monday">Monday</a> | 
-<a href="http://12press.myownsite.me/mbd.php?day=Tuesday">Tuesday</a> | 
-<a href="http://12press.myownsite.me/mbd.php?day=Wednesday">Wednesday</a> | 
-<a href="http://12press.myownsite.me/mbd.php?day=Thursday">Thursday</a> | 
-<a href="http://12press.myownsite.me/mbd.php?day=Friday">Friday</a> | 
-<a href="http://12press.myownsite.me/mbd.php?day=Saturday">Saturday</a></li><br />
-<li class="bod"><strong>Meetings by  Town:</strong><br />
-<a href="http://12press.myownsite.me/mbt.php?city=Unknownville">Unknownville</a> | 
-<a href="http://12press.myownsite.me/mbt.php?city=Gone City">Gone City</a></li></ul><hr />
-<h3> Complete Meetings List:</h3>
-<ul>
-<?php
+
+echo "<ul>
+<li class=\"bod\"><strong>Meetings by Day:</strong><br />
+<a href=\"$url/mbd.php?day=Sunday\">Sunday</a> | 
+<a href=\"$url/mbd.php?day=Monday\">Monday</a> | 
+<a href=\"$url/mbd.php?day=Tuesday\">Tuesday</a> | 
+<a href=\"$url/mbd.php?day=Wednesday\">Wednesday</a> | 
+<a href=\"$url/mbd.php?day=Thursday\">Thursday</a> | 
+<a href=\"$url/mbd.php?day=Friday\">Friday</a> | 
+<a href=\"$url/mbd.php?day=Saturday\">Saturday</a></li><br />
+<li class=\"bod\"><strong>Meetings by  Town:</strong><br />
+<a href=\"$url/mbt.php?city=Branford\">Branford</a> | 
+<a href=\"$url/mbt.php?city=East Haven\">East Haven</a> | 
+<a href=\"$url/mbt.php?city=Hamden\">Hamden</a> | 
+<a href=\"$url/mbt.php?city=Milford\">Milford</a> | 
+<a href=\"$url/mbt.php?city=New Haven\">New Haven</a> | 
+<a href=\"$url/mbt.php?city=North Branford\">North Branford</a> | 
+<a href=\"$url/mbt.php?city=North Haven\">North Haven</a> | 
+<a href=\"$url/mbt.php?city=West Haven\">West Haven</a> | 
+<a href=\"$url/mbt.php?city=Wallingford\">Wallingford</a> | 
+<a href=\"$url/mbt.php?city=Woodbridge\">Woodbridge</a></li><br />
+<li class=\"bod\"><a href=\"export.php\" target=\"_new\">export meeting list to csv</a> (can be imported to .xls/.xlsx excel or .ods libreoffice spreadsheet).<br /></li><br /></ul></hr>";
+
 mysql_connect("$dbhost", "$dbuser", "$dbpass") or die(mysql_error());
 mysql_select_db("$dbname") or die(mysql_error());
 $cquery = "SELECT * FROM meetings";
