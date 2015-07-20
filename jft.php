@@ -41,6 +41,8 @@ who have found a new way of life. So long as I follow
 that way, I have nothing to fear.</p>
 
 <p>&copy; <a href="http://www.na.org">Narcotics Anonymous</a></p>
+<br />
+<ul><li><strong><font size="3"><a href="http://jftna.org/jft/" target="_new">Read today's reading from the Just for Today daily meditation book</a></font></strong>.</li></ul>
 </div>
 </div>
 
