@@ -16,7 +16,7 @@ include '../include/navbar.php';
 
 <h1>EVENT FLYERS</h1>
 <ul>
-<?
+<?php
    // loop through files and list them
  
    $path = getcwd();
